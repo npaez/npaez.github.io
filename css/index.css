@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:300);
-@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
 
 body
 {
@@ -9,8 +8,96 @@ body
 	height: 100%;
 }
 
+footer
+{
+	padding-bottom: -20px;
+}
+
 .container
 {
+	padding-top: 20px;
 	background-color: white;
 	width: 750px;
 }
+
+.tabbable .nav > li > a 
+{
+  	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+   	transition: .4s;
+}
+
+.tabbable .nav > li > a:hover 
+{
+	background-color: #F2F2F2;
+}
+.tabbable .nav > li[class="active"] > a:hover 
+{
+	background-color: white;;
+}
+
+i
+{
+	float: left;
+}
+
+p
+{
+	font-size: 16px;
+}
+
+a
+{
+	color: green;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: black;
+}
+
+#img
+{
+	background-color: #F2F2F2;
+}
+
+/* css contact begin */
+#gmail:hover
+{
+	color: #dd4b39;
+}
+
+#github:hover
+{
+	color: #4183C4;
+}
+
+#twitter:hover
+{
+	color: #00aced;
+}
+
+#skype:hover
+{
+	color: #12A5F4;
+}
+
+#instagram:hover
+{
+	color: #517fa4;
+
+}
+
+#instagram, #skype, #twitter, #github, #gmail
+{
+	color: grey;
+  	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+   	transition: .5s;
+}
+/* css contact end */
