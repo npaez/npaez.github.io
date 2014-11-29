@@ -33,9 +33,11 @@ footer
 {
 	background-color: #F2F2F2;
 }
-.tabbable .nav > li[class="active"] > a:hover 
+
+.tabbable .nav > li[class="active"] > a
 {
-	background-color: white;;
+	background-color: white;
+	font-weight: bolder;
 }
 
 i
