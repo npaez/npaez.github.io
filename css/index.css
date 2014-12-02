@@ -26,15 +26,14 @@ footer
   	-ms-transition:.5s;
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
-   	transition: .4s;
+   	transition: .7s;
 }
 
 .tabbable .nav > li > a:hover 
 {
 	background-color: #F2F2F2;
 }
-
-.tabbable .nav > li[class="active"] > a
+.tabbable .nav > li[class="active"] > a 
 {
 	background-color: white;
 	font-weight: bolder;
@@ -50,15 +49,17 @@ p
 	font-size: 16px;
 }
 
+
 a
 {
-	color: green;
+	color: #92B25C;
 }
 
 a:hover
 {
 	text-decoration: none;
-	color: black;
+	font-weight: bold;
+	color: #749b46;
 }
 
 #img
@@ -66,7 +67,7 @@ a:hover
 	background-color: #F2F2F2;
 }
 
-/* css contact begin */
+/*************** css contact begin ***************/
 #gmail:hover
 {
 	color: #dd4b39;
@@ -95,6 +96,7 @@ a:hover
 
 #instagram, #skype, #twitter, #github, #gmail
 {
+
 	color: grey;
   	-o-transition:.5s;
   	-ms-transition:.5s;
@@ -102,4 +104,111 @@ a:hover
   	-webkit-transition:.5s;
    	transition: .5s;
 }
-/* css contact end */
+
+#contact_info
+{
+	padding-top: 5px; 
+	font-size: 16px;
+}
+
+/*************** css contact end ***************/
+
+/*************** tabs title ***************/
+.title
+{
+	margin-right: -5px;
+}
+
+.help-block:hover
+{
+	color: black;
+}
+
+/*************** vertical bars & skill ***************/
+.skill
+{
+	margin-right: 2px solid white;
+}
+
+.progress 
+{
+	background-color: #F2F2F2;
+  	height: 360px !important;
+  	width: 60px;
+    position: relative;
+} 
+
+.progress-bar 
+{
+    width: 100% !important;
+  	height: 100px;
+    bottom: 0;
+    position: absolute;
+}
+
+.C 
+{
+  	height: 210px;
+  	background-color: #566eb5;
+  	-webkit-transition:.1s;
+   	transition: .5s;	
+}
+
+.htmlcss 
+{
+  	height: 140px;
+  	background-color: #f16529;
+  	-webkit-transition:.1s;
+   	transition: .5s;	
+}
+
+.python 
+{
+  	height: 85px;
+  	background-color: #5cb85c;
+  	-webkit-transition:.1s;
+   	transition: .5s;	
+}
+
+.javascript 
+{
+  	height: 50px;
+  	background-color: #f0db4f;
+  	-webkit-transition:.1s;
+   	transition: .5s;	
+}
+
+#barra:hover .python
+{
+	background-color: #4FA059;
+  	-webkit-transition:.2s;
+   	transition: .5s;	
+}
+
+#barra:hover .javascript
+{
+	background-color: #E3C34C;
+  	-webkit-transition:.2s;
+   	transition: .5s;	
+}
+
+#barra:hover .htmlcss
+{
+	background-color: #e44d26;
+  	-webkit-transition:.2s;
+   	transition: .5s;	
+}
+
+#barra:hover .C
+{
+	background-color: #4956B2;
+    -webkit-transition: .2s;
+   	transition: .5s;	
+}
+
+.progress-bar-primary {
+	background-color: #dd4b39;
+}
+
+/***************  vertical bars & skill end ***************/
+
