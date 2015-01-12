@@ -1,0 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
+body
+{
+   font-family: 'Open Sans';
+   font-weight: 400;
+   padding-top: 20px;
+}
+
+img
+{
+   width: 175px;
+   height: 175px;
+   margin-bottom: 20px;
+}
+
+p
+{
+   color: #2F2F2F;
+}
+
+a
+{
+   color: #7093DB;
+}
+
+a:hover
+{
+   color: #00688B;
+   text-decoration: none;
+}
+
+/* - - - - - - - - - - HEADER BEGIN - - - - - - - - - - */
+.header-title
+{
+   font-family: 'Montserrat';
+   margin-top: 0px;
+   color: #2F2F2F;
+   font-size: 64px;
+}
+
+.header-title .last-name
+{
+   color: #7093DB;
+}
+
+.header-subtitle
+{
+   font-family: 'Montserrat';
+   color: #2F2F2F;
+   margin-bottom: 10px;
+}
+/* - - - - - - - - - - HEADER END - - - - - - - - - - */
+
+/* - - - - - - - - - - something BEGIN - - - - - - - - - - */
+h2
+{
+   font-family: Montserrat;
+   background-color: #7093DB;
+   color: #fff;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+/* - - - - - - - - - - something END - - - - - - - - - - */
+
+/* - - - - - - - - - - CONTACT BEGIN - - - - - - - - - - */
+i
+{
+   margin-bottom: 10px;
+}
+/* - - - - - - - - - - CONTACT END - - - - - - - - - - */
+
+/* - - - - - - - - - - SKILL BEGIN - - - - - - - - - - */
+.progress
+{
+   border-radius: 0;
+   box-shadow: none;
+}
+
+.progress-bar
+{
+   box-shadow: none;
+}
+
+#c
+{
+   background-color: #566eb5;
+}
+
+#htmlcss
+{
+   background-color: #f16529;
+}
+
+#python
+{
+   background-color: #5cb85c;
+}
+
+#js
+{
+   background-color: #f0db4f;
+}
+/* - - - - - - - - - - SKILL END - - - - - - - - - - */
