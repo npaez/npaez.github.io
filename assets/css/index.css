@@ -123,21 +123,3 @@ i
    background-color: #f0db4f;
 }
 /* - - - - - - - - - - SKILL END - - - - - - - - - - */
-
-/* - - - - - - - - - - FOOTER BEGIN - - - - - - - - - - */
-.panel .panel-footer
-{
-   border-top: 0;
-   color: #fff;
-   background-color: #7093DB;
-   border-bottom-right-radius: 0;
-   border-bottom-left-radius: 0;
-}
-
-.panel
-{
-   border-radius: 0;
-   border: 0;
-}
-
-/* - - - - - - - - - - FOOTER END - - - - - - - - - - */
