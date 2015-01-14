@@ -20,7 +20,7 @@ a
 
 a:hover
 {
-   color: #00688B;
+   color: #666666;
    text-decoration: none;
 }
 
@@ -100,6 +100,7 @@ legend
 }
 /* - - - - - - - - - - ABOUT-ME END - - - - - - - - - - */
 
+
 /* - - - - - - - - - - EDUCATION BEGIN - - - - - - - - - - */
 .education
 {
@@ -126,55 +127,40 @@ i
 }
 /* - - - - - - - - - - CONTACT END - - - - - - - - - - */
 
+
 /* - - - - - - - - - - SKILL BEGIN - - - - - - - - - - */
 .progress
 {
    border-radius: 0;
    box-shadow: none;
+   margin-bottom: 10px;
+   background-color: #E6E8FA;
+   height: 22px;
 }
 
 .progress-bar
 {
    box-shadow: none;
-   background-color: #666666;
+   background-color: #B0C4DE;
 }
 
 .skill-name
 {
+   margin-top: 1px;
    margin-left: 10px;
 }
 
-#c
+.skills
 {
-   background-color: #566eb5;
-}
-
-#htmlcss
-{
-   background-color: #f16529;
-}
-
-#python
-{
-   background-color: #5cb85c;
-}
-
-#js
-{
-   background-color: #f0db4f;
+   margin-bottom: 10px;
 }
 /* - - - - - - - - - - SKILL END - - - - - - - - - - */
 
 
-/* - - - - - - - - - - PORTFOLIO END - - - - - - - - - - */
+/* - - - - - - - - - - PORTFOLIO BEGIN - - - - - - - - - - */
 .portfolio
 {
    margin-bottom: 20px;
-}
-
-#ecommerce:hover
-{
-   width: 1000px;
 }
 
 h5
