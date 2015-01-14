@@ -68,14 +68,25 @@ h2
 /* - - - - - - - - - - BODY END - - - - - - - - - - */
 
 /* - - - - - - - - - - ABOUT-ME BEGIN - - - - - - - - - - */
+.aboutme
+{
+   margin-bottom: 20px;
+}
+
 .img-thumbnail
 {
    border-radius: 0;
-   margin-bottom: 20px;
-   border: 0px;
+   border: 0;
    padding: 0px;
 }
 /* - - - - - - - - - - ABOUT-ME END - - - - - - - - - - */
+
+/* - - - - - - - - - - EDUCATION BEGIN - - - - - - - - - - */
+.education
+{
+   margin-bottom: 10px;
+}
+/* - - - - - - - - - - EDUCATION END - - - - - - - - - - */
 
 
 /* - - - - - - - - - - CONTACT BEGIN - - - - - - - - - - */
@@ -88,6 +99,11 @@ i
 .fa-twitter, .fa-skype, .fa-map-marker
 {
    font-size: 22px;
+}
+
+.contact
+{
+   margin-bottom: 10px;
 }
 /* - - - - - - - - - - CONTACT END - - - - - - - - - - */
 
@@ -123,3 +139,11 @@ i
    background-color: #f0db4f;
 }
 /* - - - - - - - - - - SKILL END - - - - - - - - - - */
+
+
+/* - - - - - - - - - - PORTFOLIO END - - - - - - - - - - */
+.portfolio
+{
+   margin-bottom: 20px;
+}
+/* - - - - - - - - - - PORTFOLIO END - - - - - - - - - - */
