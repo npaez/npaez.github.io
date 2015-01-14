@@ -85,6 +85,11 @@ h2
    border-radius: 800px;
    overflow: hidden;
 }
+
+.img-profile-xs
+{
+   margin-bottom: 20px;
+}
 /* - - - - - - - - - - ABOUT-ME END - - - - - - - - - - */
 
 /* - - - - - - - - - - EDUCATION BEGIN - - - - - - - - - - */
