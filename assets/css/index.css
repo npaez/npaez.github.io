@@ -75,9 +75,15 @@ h2
 
 .img-thumbnail
 {
-   border-radius: 0;
+   border-radius: 0px;
    border: 0;
-   padding: 0px;
+   padding: 0;
+}
+
+.img-profile
+{
+   border-radius: 800px;
+   overflow: hidden;
 }
 /* - - - - - - - - - - ABOUT-ME END - - - - - - - - - - */
 
@@ -145,5 +151,15 @@ i
 .portfolio
 {
    margin-bottom: 20px;
+}
+
+#ecommerce:hover
+{
+   width: 1000px;
+}
+
+h5
+{
+   margin-top: 0;
 }
 /* - - - - - - - - - - PORTFOLIO END - - - - - - - - - - */
