@@ -5,7 +5,7 @@ body
 {
    font-family: 'Open Sans';
    font-weight: 400;
-   padding-top: 20px;
+   /*background-color: #E6E8FA;*/
 }
 
 p
@@ -24,11 +24,16 @@ a:hover
    text-decoration: none;
 }
 
+.container
+{
+   background-color: #fff;
+}
+
 /* - - - - - - - - - - HEADER BEGIN - - - - - - - - - - */
 .header-title
 {
    font-family: 'Montserrat';
-   margin-top: 0px;
+   margin-top: 10px;
    color: #2F2F2F;
    font-size: 64px;
 }
