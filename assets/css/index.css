@@ -96,15 +96,15 @@ legend
 
 .img-profile-sm
 {
-   width: 90%;
-   height: 90%;
+   max-width: 200px;
+   max-height: 200px;  
 }
 
 .img-profile-xs
 {
    margin-bottom: 20px;
-   width: 50%;
-   height: 50%;
+   max-width: 200px;
+   max-height: 200px;
 }
 /* - - - - - - - - - - ABOUT-ME END - - - - - - - - - - */
 
@@ -174,13 +174,5 @@ i
 h5
 {
    margin-top: 10px;
-}
-
-.img-preview
-{
-   width: 70%;
-   height: 70%;
-   border-radius: 1000px;
-   overflow: hidden;
 }
 /* - - - - - - - - - - PORTFOLIO END - - - - - - - - - - */
