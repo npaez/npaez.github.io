@@ -128,7 +128,7 @@ legend
    display: inline-block;
 }
 
-.social-icon
+.social-icon, .social-icon-xs
 {
    float:left;
    border-radius: 200px 200px 200px 200px;
@@ -142,16 +142,17 @@ legend
    text-align: center;
 }
 
+.social-icon-xs
+{
+   margin-top: 15px;
+}
+
+
 i
 {
    padding-top: 10px;
    padding-left: 10px;
    font-size: 22px; 
-}
-
-.fa-envelope-o, .fa-facebook, .fa-github, .fa-instagram,
-.fa-twitter, .fa-skype, .fa-map-marker
-{
    margin-right: 10px;
 }
 
@@ -166,7 +167,14 @@ i
    margin-left: 50px;
 }
 
-.contact-p a
+.contact-p-xs
+{
+   margin-top: 25px;
+   margin-left: 50px;
+
+}
+
+.contact-p a, .contact-p-xs a
 {
    color: #2F2F2F;
 }
