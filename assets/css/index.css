@@ -111,6 +111,11 @@ legend
    max-width: 200px;
    max-height: 200px;
 }
+
+.mg-lg-sm
+{
+   margin-left: 20px;
+}
 /* - - - - - - - - - - ABOUT-ME END - - - - - - - - - - */
 
 
@@ -130,8 +135,6 @@ legend
 
 .email
 {
-   font-family: 'Montserrat';
-   font-weight: 700;
    font-size: 18px;
 }
 
@@ -150,6 +153,7 @@ i
 i:hover
 {
    color: #B0C4DE;
+   transition: 0.3s;
 }
 /* - - - - - - - - - - CONTACT END - - - - - - - - - - */
 
