@@ -13,14 +13,16 @@ p
    color: #2F2F2F;
 }
 
-a, .social
+a,
+.social
 {
    color: #2F2F2F;
    font-weight: bold;
    transition: 0.4s;
 }
 
-a:hover, .social:hover
+a:hover,
+.social:hover
 {
    color: #B0C4DE;
    text-decoration: none;
@@ -53,7 +55,8 @@ hr
    font-size: 54px;
 }
 
-.header-title .last-name, .header-title-xs .last-name
+.header-title .last-name,
+.header-title-xs .last-name
 {
    color: #7093DB;
 }
@@ -114,8 +117,8 @@ legend
 .img-profile-xs
 {
    margin-bottom: 20px;
-   max-width: 200px;
-   max-height: 200px;
+   max-width: 250px;
+   max-height: 250px;
 }
 
 .mg-lg-sm
@@ -152,8 +155,13 @@ legend
    text-decoration: none;
 }
 
-.fa-skype, .fa-envelope-o, .fa-github, .fa-instagram,
-.fa-twitter, .fa-facebook, .fa-map-marker
+.fa-skype,
+.fa-envelope-o,
+.fa-github,
+.fa-instagram,
+.fa-twitter,
+.fa-facebook-official,
+.fa-map-marker
 {
    margin-top: 20px;
    color: #B0C4DE;
