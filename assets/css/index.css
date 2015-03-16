@@ -1,216 +1,181 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 
 body
 {
    font-family: 'Open Sans';
-   font-weight: 400;
-   /*background-color: #E6E8FA;*/
+   font-weight: 300;
 }
 
 p
 {
    color: #2F2F2F;
+   font-size: 16px;
+   text-align: justify;
 }
 
-a,
-.social
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+   font-family: 'Lato';
+   font-weight: 300;
+}
+
+a
 {
    color: #2F2F2F;
-   font-weight: bold;
+   font-weight: 600;
+   text-decoration: none;
    transition: 0.4s;
 }
 
-a:hover,
-.social:hover
+a:hover
 {
-   color: #B0C4DE;
+   color: #7AC5CD;
    text-decoration: none;
-}
-
-hr
-{
-   border-color: #E6E8FA;
-}
-
-.container
-{
-   background-color: #fff;
-}
-
-/* - - - - - - - - - - HEADER BEGIN - - - - - - - - - - */
-.header-title
-{
-   font-family: 'Montserrat';
-   margin-top: 10px;
-   color: #2F2F2F;
-   font-size: 64px;
-}
-
-.header-title-xs
-{
-   font-family: 'Montserrat';
-   margin-top: 0px;
-   color: #2F2F2F;
-   font-size: 54px;
-}
-
-.header-title .last-name,
-.header-title-xs .last-name
-{
-   color: #7093DB;
-}
-
-.header-subtitle
-{
-   font-family: 'Montserrat';
-   color: #2F2F2F;
-   margin-bottom: 10px;
-}
-/* - - - - - - - - - - HEADER END - - - - - - - - - - */
-
-/* - - - - - - - - - - BODY BEGIN - - - - - - - - - - */
-h2
-{
-   font-family: Montserrat;
-   background-color: #7093DB;
-   color: #fff;
-   margin-top: 0;
-   margin-bottom: 0;
-   padding-top: 5px;
-   padding-bottom: 5px;
 }
 
 legend
 {
-   margin-top: 0px;
-   margin-bottom: 0px;
-   border-bottom: 0;
-   text-align: right;
-}
-/* - - - - - - - - - - BODY END - - - - - - - - - - */
-
-/* - - - - - - - - - - ABOUT-ME BEGIN - - - - - - - - - - */
-.aboutme
-{
-   margin-bottom: 10px;
+   border-bottom: 1.5px solid #e5e5e5;
 }
 
-.img-thumbnail
+hr
 {
-   border: 0;
-   padding: 0;
+   border-bottom: 1.5px solid #7AC5CD;
 }
+
+.no-top
+{
+   margin-top: 0;
+}
+
+.font-medium
+{
+   font-weight: 400;
+}
+
+/* FRONT BEGIN */
+.front
+{
+   margin-top: 3%;
+   margin-bottom: 6%;
+}
+
+.front-title
+{
+   font-size: 82px;
+}
+
+.front-title-end
+{
+   color: #7AC5CD;
+}
+
+.front-subtitle
+{
+   margin-top: 0;
+   margin-bottom: 0;
+}
+/* FRONT END 7AC5CD 63B8FF*/
 
 .img-profile
 {
-   border-radius: 800px;
-   overflow: hidden;
-}
-
-.img-profile-sm
-{
    max-width: 200px;
-   max-height: 200px;  
+   max-height: 200px;
+   margin: 0 auto;
 }
 
-.img-profile-xs
+.section
 {
-   margin-bottom: 20px;
-   max-width: 250px;
-   max-height: 250px;
+   padding-top: 50px;
 }
 
-.mg-lg-sm
+.section-bg
 {
+   background-color: #f9f9f9;
+   padding-bottom: 50px;
+   /*background-color: rgba(122, 197, 205, 0.05);*/
 }
-/* - - - - - - - - - - ABOUT-ME END - - - - - - - - - - */
 
-
-/* - - - - - - - - - - EDUCATION BEGIN - - - - - - - - - - */
-.education
+.section-contact
 {
-   margin-bottom: 10px;
+   background-image: url(http://i.imgur.com/wCMWkzI.jpg);
+   background-attachment: fixed;
 }
-/* - - - - - - - - - - EDUCATION END - - - - - - - - - - */
 
-
-/* - - - - - - - - - - CONTACT BEGIN - - - - - - - - - - */
-.contact
+.section-title
 {
-   margin-bottom: 20px;
+   color: #fff;
+   background-color: #7AC5CD;
+   padding: 5px;
+   margin: 0;
 }
 
-.social
-{
-   color: #2F2F2F;
-   font-weight: bold;
-   transition: 0.4s;
-}
-
-.social:hover
-{
-   color: #B0C4DE;
-   text-decoration: none;
-}
-
-.fa-skype,
-.fa-envelope-o,
-.fa-github,
-.fa-instagram,
-.fa-twitter,
-.fa-facebook-official,
-.fa-map-marker
-{
-   margin-top: 20px;
-   color: #B0C4DE;
-}
-/* - - - - - - - - - - CONTACT END - - - - - - - - - - */
-
-
-/* - - - - - - - - - - SKILL BEGIN - - - - - - - - - - */
 .progress
 {
+   height: 25px;
    border-radius: 0;
    box-shadow: none;
-   margin-bottom: 10px;
-   background-color: #E6E8FA;
-   height: 22px;
+   background-color: rgba(122, 197, 205, 0.15);
 }
 
 .progress-bar
 {
+   line-height: 25px;
+   background-color: #7AC5CD;
    box-shadow: none;
-   background-color: #B0C4DE;
 }
 
 .skill-name
 {
-   margin-top: 1px;
-   margin-left: 10px;
-}
-
-.skills
-{
-   margin-bottom: 10px;
-}
-/* - - - - - - - - - - SKILL END - - - - - - - - - - */
-
-
-/* - - - - - - - - - - PORTFOLIO BEGIN - - - - - - - - - - */
-.portfolio
-{
-   margin-bottom: 20px;
-}
-/* - - - - - - - - - - PORTFOLIO END - - - - - - - - - - */
-
-/* - - - - - - - - - - HOBBIES BEGIN - - - - - - - - - - */
-h5
-{
-   background-color: #B0C4DE;
-   color: #fff;
-   padding-top: 5px;
-   padding-bottom: 5px;
    padding-left: 10px;
 }
-/* - - - - - - - - - - HOBBIES END - - - - - - - - - - */
+
+.edu-help
+{
+   color: #7AC5CD
+}
+
+.OneSecDelay
+{
+   -webkit-animation-delay: .1s;
+}
+
+.TwoSecDelay
+{
+   -webkit-animation-delay: .2s;
+}
+
+.ThreeSecDelay
+{
+   -webkit-animation-delay: .3s;
+}
+
+.FourSecDelay
+{
+   -webkit-animation-delay: .4s;
+}
+
+.FiveSecDelay
+{
+   -webkit-animation-delay: .5s;
+}
+
+
+.fa-envelope-o
+{
+   margin-bottom: 1px;
+}
+
+.fa-envelope-o,
+.fa-github,
+.fa-skype
+{
+   color: #7AC5CD;
+   font-size: 30px !important;
+}
