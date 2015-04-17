@@ -166,13 +166,7 @@ hr
    -webkit-animation-delay: .5s;
 }
 
-
-.fa-envelope-o
-{
-   margin-bottom: 1px;
-}
-
-.fa-envelope-o,
+.fa-at,
 .fa-github,
 .fa-skype
 {
