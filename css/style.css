@@ -84,7 +84,7 @@ MAIN COMPONENTS
 
 .projects-container .cd-single-project::before {
    /* never visible - this is used in jQuery to detect if the background image has been loaded  */
-   content: '../web/img/img1.jpg';
+   content: '../img/img1.jpg';
    display: none;
 }
 
@@ -97,7 +97,7 @@ MAIN COMPONENTS
 }
 
 .projects-container .cd-single-project:nth-of-type(2)::before {
-   content: '../web/img/img2.jpg';
+   content: '../img/img2.jpg';
 }
 
 
@@ -108,7 +108,7 @@ MAIN COMPONENTS
   background-image: url("../img/img3.jpg");
 }
 .projects-container .cd-single-project:nth-of-type(3)::before {
-  content: '../web/img/img3.jpg';
+  content: '../img/img3.jpg';
 }
 .projects-container .cd-single-project:nth-of-type(4) {
   top: 75vh;
@@ -117,7 +117,7 @@ MAIN COMPONENTS
   background-image: url("../img/img4.jpg");
 }
 .projects-container .cd-single-project:nth-of-type(4)::before {
-   content: '../web/img/img4.jpg';
+   content: '../img/img4.jpg';
 }
 .projects-container .cd-single-project.is-loaded {
   /* move items in the viewport when background images have been loaded */
@@ -160,7 +160,7 @@ MAIN COMPONENTS
     transition: width 0s;
   }
   .projects-container .cd-single-project:first-of-type::before {
-    content: '../web/img/img1.jpg';
+    content: '../img/img1.jpg';
   }
   .projects-container .cd-single-project:first-of-type::after {
     background-image: url("../img/img1.jpg");
@@ -179,7 +179,7 @@ MAIN COMPONENTS
     left: 50vw;
   }
   .projects-container .cd-single-project:nth-of-type(3)::before {
-    content: '../web/img/img3.jpg';
+    content: '../img/img3.jpg';
    
   }
   .projects-container .cd-single-project:nth-of-type(3)::after {
@@ -191,7 +191,7 @@ MAIN COMPONENTS
     left: 75vw;
   }
   .projects-container .cd-single-project:nth-of-type(4)::before {
-    content: '../web/img/img4.jpg';
+    content: '../img/img4.jpg';
 
   }
   .projects-container .cd-single-project:nth-of-type(4)::after {
