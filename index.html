@@ -7,18 +7,19 @@
 
    <link rel="stylesheet" href="css/materialize.min.css">
    <link rel="stylesheet" href="css/thin-icon.css">
+   <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
    <div class="container">
-      <h3 class="title">Nestor Paez</h3>
-      <h6 class="subtitle">front-end developer</h6>
-      <img class="main-img z-depth-1" src="img/profile.png">
+      <h3 class="title wow fadeIn">Nestor Paez</h3>
+      <h6 class="subtitle wow fadeIn">front-end developer</h6>
+      <img class="main-img z-depth-1 wow fadeInUp" src="img/profile.png">
 
       <div class="row">
          <div class="col m6">
             <!-- about -->
-            <div class="card">
+            <div class="card wow fadeInUp" data-wow-delay=".5s">
                <div class="card-content">
                   <div class="icon-inner">
                      <i class="pe-7s-user"></i>
@@ -36,7 +37,7 @@
             </div>
 
             <!-- skills -->
-            <div class="card">
+            <div class="card wow fadeInUp" data-wow-delay=".9s">
                <div class="card-content">
                   <div class="icon-inner">
                      <i class="pe-7s-tools"></i>
@@ -46,44 +47,44 @@
                      
                      <p class="tech">html5</p>
                      <div class="progress">
-                        <div class="determinate" style="width: 95%"></div>
+                        <div class="determinate wow slideInLeft" data-wow-delay=".9s" style="width: 95%"></div>
                      </div>
 
                      <p class="tech">css3</p>
                      <div class="progress">
-                        <div class="determinate" style="width: 95%"></div>
+                        <div class="determinate wow slideInLeft" data-wow-delay=".9s" style="width: 95%"></div>
                      </div>
 
                      <p class="tech">jquery</p>
                      <div class="progress">
-                        <div class="determinate" style="width: 90%"></div>
+                        <div class="determinate wow slideInLeft" data-wow-delay=".9s" style="width: 90%"></div>
                      </div>
 
                      <p class="tech">node.js</p>
                      <div class="progress">
-                        <div class="determinate" style="width: 80%"></div>
+                        <div class="determinate wow slideInLeft" data-wow-delay=".9s" style="width: 80%"></div>
                      </div>
 
                      <p class="tech">angular.js</p>
                      <div class="progress">
-                        <div class="determinate" style="width: 70%"></div>
+                        <div class="determinate wow slideInLeft" data-wow-delay=".9s" style="width: 70%"></div>
                      </div>
 
                      <p class="tech">c</p>
                      <div class="progress">
-                        <div class="determinate" style="width: 70%"></div>
+                        <div class="determinate wow slideInLeft" data-wow-delay=".9s" style="width: 70%"></div>
                      </div>
 
                      <p class="tech">python</p>
                      <div class="progress">
-                        <div class="determinate" style="width: 50%"></div>
+                        <div class="determinate wow slideInLeft" data-wow-delay=".9s" style="width: 50%"></div>
                      </div>
                   </div>
                </div>
             </div>
 
             <!-- devs -->
-            <div class="card">
+            <div class="card wow fadeInUp" data-wow-delay=".6s">
                <div class="card-content">
                   <div class="icon-inner">
                      <i class="pe-7s-browser"></i>
@@ -94,7 +95,7 @@
                   </div>
                </div>
             </div>
-            <div class="card">
+            <div class="card wow fadeInUp" data-wow-delay=".8s">
                <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" src="img/bitcharts.png">
                </div>
@@ -125,7 +126,7 @@
 
          <div class="col m6 top-margin">
             <!-- resume -->
-            <div class="card">
+            <div class="card wow fadeInUp" data-wow-delay=".7s">
                <div class="card-content">
                   <div class="icon-inner">
                      <i class="pe-7s-portfolio"></i>
@@ -154,7 +155,7 @@
             </div>
 
             <!-- education -->
-            <div class="card">
+            <div class="card wow fadeInUp" data-wow-delay=".6s">
                <div class="card-content">
                   <div class="icon-inner">
                      <i class="pe-7s-science"></i>
@@ -183,7 +184,7 @@
             </div>
 
             <!-- contact -->
-            <div class="card">
+            <div class="card wow fadeInUp" data-wow-delay=".8s">
                <div class="card-content">
                   <div class="icon-inner">
                      <i class="pe-7s-map"></i>
@@ -228,19 +229,12 @@
                            </p>
                         </div>
                      </div>
-                  </div>
-               </div>
-            </div>
 
-            <!-- misc -->
-            <div class="card">
-               <div class="card-content">
-                  <div class="icon-inner">
-                     <i class="pe-7s-map-marker"></i>
-                  </div>
-                  <div class="text-inner">
-                     <span class="card-title">Rosario - Puerto Madryn</span>
-                     <p>Argentina</p>
+                     <div class="row">
+                        <div class="col s12">
+                           <p>Rosario - Puerto Madryn, Argentina</p>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -250,5 +244,7 @@
 
    <script src="js/jquery.js"></script>
    <script src="js/materialize.min.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script type="text/javascript">new WOW().init();</script>
 </body>
 </html>
