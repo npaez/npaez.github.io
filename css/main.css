@@ -6,13 +6,8 @@ IMPORTS
 /************************************************************
 GENERAL
 ************************************************************/
-html,
 body {
-  height: 100%;
-}
-
-body {
-   background: #fdfdfd;
+   background: #f9f9f9;
    font-family: 'Open Sans';
    font-size: 100%;
 }
@@ -129,13 +124,6 @@ CARDS
 .card .card-content p.resume-city {
    color: #aaa;
    font-weight: 300;
-}
-
-.p-helper {
-   font-size: 11px;
-   position: relative;
-   top: -8px;
-   color: #aaa;
 }
 
 .pe-7s-more {
