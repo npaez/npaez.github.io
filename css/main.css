@@ -1,148 +1,18 @@
-/************************************************************
-IMPORTS
-************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
-
-/************************************************************
-GENERAL
-************************************************************/
-body {
-   background: #f9f9f9;
-   font-family: 'Open Sans';
-   font-size: 100%;
-}
-
-.container {
-   padding-top: 20px;
-}
-
-@media only screen and (min-width: 768px) {
-   .container {
-      width: 95%;
-   }
-}
-
-@media only screen and (min-width: 993px) {
-   .container {
-      width: 70%;
-   }
-}
-
-.row .col.m6 {
-   width: 100%;
-}
-
-@media only screen and (min-width : 768px) {
-   .row .col.m6 {
-      width: 50%;
-   }
-}
-
-.title {
-   font-weight: 300;
-   text-align: center;
-   margin: 0;
-   color: #55a79a;
-}
-
-.subtitle {
-   text-align: center;
-   margin-top: 0;
-   color: #999;
-}
-
-.main-img {
-   border-radius: 50%;
-   max-width: 150px;
-   width: 100%;
-   margin: 20px auto 60px;
-   display: block;
-}
-
-a {
-   color: #55a79a;
-}
-
-a:hover {
-   color: #44857b;
-}
-
-.top-margin {
-   margin-top: 0;
-}
-
-@media only screen and (min-width: 768px) {
-   .top-margin {
-      margin-top: 100px;
-   }
-}
-
-/************************************************************
-CARDS
-************************************************************/
-.icon-inner i {
-   font-size: 34px;
-   position: absolute;
-   color: #55a79a;
-}
-
-.icon-inner i.pe-7s-science {
-   font-size: 38px;
-}
-
-.text-inner {
-   padding-left: 48px;
-   margin-top: -6px;
-}
-
-.card-reveal p,
-.card .card-content p {
-   color: #999;
-   font-weight: 400;
-}
-
-.card .card-content .card-title {
-   color: #333;
-}
-
-.card .card-content p.tech {
-   text-transform: uppercase;
-}
-
-.progress {
-   background-color: #eaeaea;
-}
-
-.progress .determinate {
-   background-color: #55a79a
-}
-
-.card .card-content p.resume-title {
-   color: #55a79a;
-}
-
-.card .card-content p.resume-city {
-   color: #aaa;
-   font-weight: 300;
-}
-
-.pe-7s-more {
-   position: relative;
-   -webkit-transform: rotate(90deg);
-   -webkit-transform-origin: left top;
-   -moz-transform: rotate(90deg);
-   -moz-transform-origin: left top;
-   -ms-transform: rotate(90deg);
-   -ms-transform-origin: left top;
-   -o-transform: rotate(90deg);
-   -o-transform-origin: left top;
-   transform: rotate(90deg);
-   transform-origin: left top;
-   right: -30px;
-   color: #55a79a;
-}
-
-.pe-7s-close-circle {
-   font-size: 30px;
-   color: #55a79a
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+html,
+body { height: 100%; min-height: 100%; }
+body { background: rgba(0, 0, 0, .15); font-family: 'Roboto'; letter-spacing: 2px; font-weight: 400; }
+a,
+a:active,
+a:focus { color: #55a79a; transition: .3s; text-decoration: none; font-weight: 400; }
+a:hover { text-decoration: none; color: #44857b; }
+.content-wrapper { display: table; height: 100%; width: 100%; margin: 0 auto; padding: 30px 0 20px; }
+.content-caption { display: table-cell; vertical-align: middle; z-index: 3; position: relative; }
+.card { padding: 20px; background-color: #fff; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); border-top: 1px solid #f8f8f8; margin-bottom: 10px; }
+.card img { width: 100px; border-radius: 50%; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5); }
+.main-data { display: inline-block; margin-left: 20px; vertical-align: middle; color: #55a79a; }
+.main-data h4:first-child { margin-bottom: -5px; }
+.skils { text-transform: uppercase; margin-bottom: 5px; }
+.progress { height: 8px; border-radius: 0; box-shadow: none; background-color: #ddd; margin-bottom: 10px; }
+.progress-bar { background-color: #55a79a; }
+.city { margin: 0; color: #999; }
