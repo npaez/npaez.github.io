@@ -6,61 +6,345 @@
    <title>Nestor Paez · Developer</title>
    <link href="css/bootstrap.min.css" rel="stylesheet">
    <link href="css/animate.css" rel="stylesheet">
+   <link href="css/flaticon.css" rel="stylesheet">
+   <link href="css/angular-grid.css" rel="stylesheet">
    <link href="css/main.css" rel="stylesheet">
 </head>
-<body>
-   <div class="content-wrapper">
-      <div class="content-caption">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
-                  <div class="card animated fadeIn">
-                     <img src="img/profile.png">
-                     <div class="main-data"><h4>Nestor Paez</h4><h4>Full-Stack Developer</h4></div>
-                     <hr>
-                     <p>I'm a 25 years old programmer specialized in webapp development, also interested in programming languages, algorithms, optimizations, UI/UX design and open source software. <br> Currently, I work as front-end developer at <a href="https://sinaptica.com.ar/" target="_blank">Sinaptica</a>. </p>
+<body ng-app="npaez" ng-cloak>
+   <!-- SIDE BAR BEGIN -->
+   <div class="sidebar">
+      <div class="sidebar-header">
+         <h3>Nestor <span>Paez</span></h3>
+         <h5>developer</h5>
+      </div>
+      <div class="sidebar-body">
+         <ul class="sn-nav">
+            <li du-scrollspy="index" offset="30" class="two">
+               <a href="#index" du-smooth-scroll>
+                  Home <i class="flaticon-worldwide"></i>
+               </a>
+            </li>
+            <li du-scrollspy="resume" offset="30">
+               <a href="#resume" du-smooth-scroll>
+                  Resume <i class="flaticon-document"></i>
+               </a>
+            </li>
+            <li du-scrollspy="portfolio" offset="30">
+               <a href="#portfolio" du-smooth-scroll>
+                  Portfolio <i class="flaticon-browser-1"></i>
+               </a>
+            </li>
+            <li du-scrollspy="contact" offset="30">
+               <a href="#contact" du-smooth-scroll>
+                  Contact <i class="flaticon-placeholder"></i>
+               </a>
+            </li>
+         </ul>
+      </div>
+   </div>
+   <!-- SIDE BAR END -->
+
+   <!-- PROFILE BEGIN -->
+   <section id="index" class="section section-img">
+      <div class="bg-shadow"></div>
+      <div class="container-fluid">
+         <div class="main-title">
+            <h1>Nestor Paez</h1>
+            <h4>I'm a full-stack developer</h4>
+         </div>
+      </div>
+   </section>
+   <!-- PROFILE END -->
+   
+   <!-- RESUME BEGIN -->
+   <section id="resume" class="section">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-6">
+               <div class="card animated fadeIn">
+                  <h2 class="card-title">Who am I?</h2>
+                  <img src="img/profile.png">
+                  <div class="m-left">
+                     <p>I'm a 25 years old programmer specialized in webapp development,
+                     also interested in programming languages, algorithms, optimizations,
+                     UI/UX design and open source software.</p>
+                     <p>Currently, I work as front-end developer at
+                     <a href="https://sinapticasecurity.com/" target="_blank">Sinaptica</a>.</p>
                   </div>
-                  <div class="card animated fadeIn">
-                     <p class="skils">HTML5</p>
-                     <div class="progress"><div class="progress-bar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div></div>
+               </div>
 
-                     <p class="skils">CSS3</p>
-                     <div class="progress"><div class="progress-bar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div></div>
-
-                     <p class="skils">Angular.JS</p>
-                     <div class="progress"><div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div></div>
-
-                     <p class="skils">Node.JS</p>
-                     <div class="progress"><div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div></div>
-
-                     <p class="skils">Ionic</p>
-                     <div class="progress"><div class="progress-bar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div></div>
-                  </div>
-                  <div class="card animated fadeIn">
-                     <div class="row">
-                        <div class="col-sm-6">
-                           <p>Email<br><a href="mailto:nestor.2005@gmail.com">nestor.2005@gmail.com</a><br><a href="mailto:npaez@sinaptica.com.ar">npaez@sinaptica.com.ar</a></p>
-                        </div>
-                        <div class="col-sm-6">
-                           <p>Github<br><a href="https://github.com/npaez" target="_blank">github.com/npaez</a></p>
-                        </div>
+               <div class="card animated fadeIn">
+                  <h2 class="card-title">Skills</h2>
+                  
+                  <div class="skill">
+                     <span class="skill-name">HTML5 / CSS3</span>
+                     <div class="skill-bar sb-primary">
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
                      </div>
-                     <div class="row">
-                        <div class="col-sm-6">
-                           <p>Twitter<br><a href="https://twitter.com/ntpaez" target="_blank">@ntpaez</a></p>
-                        </div>
-                        <div class="col-sm-6">
-                           <p>Telegram<br><a href="https://telegram.me/npaez" target="_blank">telegram.me/npaez</a></p>
-                        </div>
+                  </div>
+
+                  <div class="skill">
+                     <span class="skill-name">Angular.JS</span>
+                     <div class="skill-bar sb-primary">
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-off"></div>
                      </div>
                   </div>
-                  <div class="card animated fadeIn">
-                     <p class="city">Rosario - Puerto Madryn, Argentina</p>
+
+                  <div class="skill">
+                     <span class="skill-name">Node.JS</span>
+                     <div class="skill-bar sb-primary">
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-off"></div>
+                     </div>
+                  </div>
+
+                  <div class="skill">
+                     <span class="skill-name">Jquery</span>
+                     <div class="skill-bar sb-primary">
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-off"></div>
+                     </div>
+                  </div>
+
+                  <div class="skill">
+                     <span class="skill-name">Ionic</span>
+                     <div class="skill-bar sb-primary">
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-off"></div>
+                        <div class="skill-rate-off"></div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="card animated fadeIn">
+                  <h2 class="card-title">Languages</h2>
+
+                  <div class="skill">
+                     <span class="skill-name">Spanish</span>
+                     <div class="skill-bar sb-primary">
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                     </div>
+                  </div>
+
+                  <div class="skill">
+                     <span class="skill-name">English</span>
+                     <div class="skill-bar sb-primary">
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-off"></div>
+                        <div class="skill-rate-off"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="card animated fadeIn">
+                  <h2 class="card-title">Main Services</h2>
+                  <div class="features">
+                     <i class="flaticon-browser-3"></i>
+                     <i class="inside-icon flaticon-settings-1"></i>
+                     
+                     <div class="m-left">
+                        <h4 class="card-title-2">WebApp Development</h4>
+                        <p>I'm a 25 years old programmer specialized in webapp development,
+                        also interested in programming languages, algorithms, optimizations,
+                        UI/UX design and open source software.</p>
+                     </div>
+                  </div>
+
+                  <div class="features">
+                     <i class="flaticon-browser-3"></i>
+                     <i class="inside-icon flaticon-writing-tool-1"></i>
+                     
+                     <div class="m-left">
+                        <h4 class="card-title-2">Web Design</h4>
+                        <p>I'm a 25 years old programmer specialized in webapp development,
+                        also interested in programming languages, algorithms, optimizations,
+                        UI/UX design and open source software.</p>
+                     </div>
+                  </div>
+
+                  <div class="features">
+                     <i class="flaticon-browser-3"></i>
+                     <i class="inside-icon flaticon-smartphone"></i>
+                     
+                     <div class="m-left">
+                        <h4 class="card-title-2">Mobile Development</h4>
+                        <p>I'm a 25 years old programmer specialized in webapp development,
+                        also interested in programming languages, algorithms, optimizations,
+                        UI/UX design and open source software.</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="card animated fadeIn">
+                  <h2 class="card-title">Work Timeline</h2>
+
+                  <i class="big-icon flaticon-document"></i>
+                  
+                  <div class="m-left work-tl">
+                     <span class="date">Nov 2014 - Present</span>
+                     <p class="work">Front-End Developer</p>
+                     <p class="work">
+                        <a href="https://sinapticasecurity.com/" target="_blank">Sinaptica S.A.</a>
+                     </p>
+                  </div>
+
+                  <div class="m-left work-tl">
+                     <span class="date">May 2016 - Present</span>
+                     <p class="work">Full-Stack Developer</p>
+                     <p class="work">
+                        <a href="https://bitsign.io/" target="_blank">BitSign</a>
+                     </p>
+                  </div>
+
+                  <div class="m-left work-tl">
+                     <span class="date">Feb 2015 - Dec 2015</span>
+                     <p class="work">Front-End Developer</p>
+                     <p class="work">Bitcharts</p>
                   </div>
                </div>
             </div>
          </div>
       </div>
+   </section>
+   <!-- RESUME END -->
+
+   <!-- PORTFOLIO BEGIN -->
+   <section id="portfolio">
+      <div id="gridWrap">
+         <ul class="dynamic-grid" angular-grid="pics" grid-width="400" gutter-size="0" refresh-on-img-load="false">
+            <li class="grid" data-ng-clock>
+               <img src="img/portfolio/bitsign.png" class="grid-img"/>
+               <div class="img-shadow-grid">
+                  <div class="text">
+                     <h4 class="client-name">Bitsign</h4>
+                     <h5 class="client-work">WebApp Development</h5>
+                  </div>
+                  <a class="client-link" href="https://bitsign.io/" target="_blank">
+                     <i class="flaticon-link"></i>
+                  </a>
+               </div>
+            </li>
+            
+            <li class="grid" data-ng-clock>
+               <img src="img/portfolio/sinaptica.png" class="grid-img"/>
+               <div class="img-shadow-grid">
+                  <div class="text">
+                     <h4 class="client-name">Sinaptica S.A.</h4>
+                     <h5 class="client-work">Web Development</h5>
+                  </div>
+                  <a class="client-link" href="https://sinapticasecurity.com/" target="_blank">
+                     <i class="flaticon-link"></i>                        
+                  </a>
+               </div>
+            </li>
+
+            <li class="grid" data-ng-clock>
+               <img src="img/portfolio/gsw.png" class="grid-img"/>
+               <div class="img-shadow-grid">
+                  <div class="text">
+                     <h4 class="client-name">Global Softworks</h4>
+                     <h5 class="client-work">Web Design</h5>
+                  </div>
+                  <a class="client-link" href="http://globalsoftworks.com/" target="_blank">
+                     <i class="flaticon-link"></i>                        
+                  </a>
+               </div>
+            </li>            
+            
+
+            <li class="grid" data-ng-clock>
+               <img src="img/portfolio/cryptologic.png" class="grid-img"/>
+               <div class="img-shadow-grid">
+                  <div class="text">
+                     <h4 class="client-name">Cryptologic</h4>
+                     <h5 class="client-work">Web Development</h5>
+                  </div>
+                  <a class="client-link" href="https://cryptologic.io/" target="_blank">
+                     <i class="flaticon-link"></i>
+                  </a>
+               </div>
+            </li>            
+         </ul>
+      </div>
+   </section>
+   <!-- PORTFOLIO END -->
+
+   <!-- CONTACT BEGIN -->
+   <div class="gmap-inner" id="contact" ng-controller="gmapsCtrl">
+      <div id="googleMap" class="gmaps"></div>
+      
+      <div class="left-data">
+         <div class="contact-data">
+            <h2 class="title">Stay Connected</h2>
+            
+            <div class="contact-inner">
+               <i class="flaticon-placeholder-1"></i> 
+               <div class="contact-info">
+                  <span>Rosario, Argentina</span>
+                  <span>Puerto Madryn, Argentina</span>
+               </div>
+            </div>
+
+            <div class="contact-inner">
+               <i class="flaticon-envelope-1"></i> 
+               <div class="contact-info">
+                  <span>
+                     <a href="mailto:nestor.2005@gmail.com">nestor.2005@gmail.com</a>
+                  </span>
+               </div>
+            </div>
+
+            <div class="contact-inner">
+               <i class="flaticon-worldwide"></i> 
+               <div class="contact-info">
+                  <span>Twitter</span>
+                  <span>
+                     <a href="https://twitter.com/ntpaez" target="_blank">@ntpaez</a>
+                  </span>
+               </div>
+            </div>            
+         </div>
+      </div>
    </div>
+   <!-- CONTACT END -->
+
+   <!-- FOOTER BEGIN -->
+   <footer ng-controller="footerCtrl" class="footer">
+      <div class="container-fluid">
+         <h5>{{ currentDate }} &copy; Nestor Paez</h5>
+      </div>
+   </footer>
+   <!-- FOOTER END -->
+
+   <script src="js/angular.min.js"></script>
+   <script src="js/angular-bootstrap.min.js"></script>
+   <script src="js/angular-animate.min.js"></script>
+   <script src="js/angular-scroll.min.js"></script>
+   <script src="js/angulargrid.js"></script>
+   <script src="js/script.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPPpMMq5GLaC_0aOYK-clnNVZCkB0Au1w"></script>
 </body>
 </html>
