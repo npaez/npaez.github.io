@@ -11,68 +11,41 @@
    <link href="css/main.css" rel="stylesheet">
 </head>
 <body ng-app="npaez" ng-cloak>
-   <!-- SIDE BAR BEGIN -->
-   <div class="sidebar">
-      <div class="sidebar-header">
-         <h3>Nestor <span>Paez</span></h3>
-         <h5>developer</h5>
-      </div>
-      <div class="sidebar-body">
-         <ul class="sn-nav">
-            <li du-scrollspy="index" offset="30" class="two">
-               <a href="#index" du-smooth-scroll>
-                  Home <i class="flaticon-worldwide"></i>
-               </a>
-            </li>
-            <li du-scrollspy="resume" offset="30">
-               <a href="#resume" du-smooth-scroll>
-                  Resume <i class="flaticon-document"></i>
-               </a>
-            </li>
-            <li du-scrollspy="portfolio" offset="30">
-               <a href="#portfolio" du-smooth-scroll>
-                  Portfolio <i class="flaticon-browser-1"></i>
-               </a>
-            </li>
-            <li du-scrollspy="contact" offset="30">
-               <a href="#contact" du-smooth-scroll>
-                  Contact <i class="flaticon-placeholder"></i>
-               </a>
-            </li>
-         </ul>
-      </div>
-   </div>
-   <!-- SIDE BAR END -->
-
    <!-- PROFILE BEGIN -->
    <section id="index" class="section section-img">
       <div class="bg-shadow"></div>
       <div class="container-fluid">
-         <div class="main-title">
+         <div class="main-title text-center">
+            <h4>I am</h4>
             <h1>Nestor Paez</h1>
-            <h4>I'm a full-stack developer</h4>
+            <h4>a full-stack developer</h4>
          </div>
       </div>
    </section>
    <!-- PROFILE END -->
    
+   <!-- ABOUT BEGIN -->
+   <section class="section white">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-offset-2 col-sm-8">
+               <img class="img-profile" src="img/profile.png">
+               <p class="text-center">I'm a twenty five years old programmer from Argentina. I'm specialized in webapp development, also interested in programming languages, algorithms, optimizations,
+               UI/UX design and open source software. I have a passion for creating challenging, intuitive and beautiful products.</p>
+               <p class="text-center">Currently, I work as front-end developer at
+               <a href="https://sinapticasecurity.com/" target="_blank">Sinaptica</a>.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ABOUT END -->
+
    <!-- RESUME BEGIN -->
+   <!--
    <section id="resume" class="section">
       <div class="container-fluid">
          <div class="row">
             <div class="col-sm-6">
-               <div class="card animated fadeIn">
-                  <h2 class="card-title">Who am I?</h2>
-                  <img src="img/profile.png">
-                  <div class="m-left">
-                     <p>I'm a 25 years old programmer specialized in webapp development,
-                     also interested in programming languages, algorithms, optimizations,
-                     UI/UX design and open source software.</p>
-                     <p>Currently, I work as front-end developer at
-                     <a href="https://sinapticasecurity.com/" target="_blank">Sinaptica</a>.</p>
-                  </div>
-               </div>
-
                <div class="card animated fadeIn">
                   <h2 class="card-title">Skills</h2>
                   
@@ -228,69 +201,213 @@
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
    <!-- RESUME END -->
 
+   <!-- SERVICES BEGIN -->
+   <section class="section">
+      <div class="container">
+         <h1 class="title">Main Services</h1>
+
+         <div class="row">
+            <div class="col-sm-offset-2 col-sm-8">
+               <div class="service">
+                  <div class="service-title">
+                     <i class="flaticon-browser-3"></i>
+                     <i class="inside-icon flaticon-settings-1"></i>
+                     <h4>WebApp Development</h4>
+                  </div>
+                  
+                  <p class="text-center">I'm a 25 years old programmer specialized in webapp development,
+                  also interested in programming languages, algorithms, optimizations,
+                  UI/UX design and open source software.</p>
+               </div>
+
+               <div class="service">
+                  <div class="service-title">
+                     <i class="flaticon-browser-3"></i>
+                     <i class="inside-icon flaticon-writing-tool-1"></i>
+                     <h4>Web Design</h4>
+                  </div>
+                  
+                  <p class="text-center">I'm a 25 years old programmer specialized in webapp development,
+                  also interested in programming languages, algorithms, optimizations,
+                  UI/UX design and open source software.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- SERVICES END -->
+
    <!-- PORTFOLIO BEGIN -->
-   <section id="portfolio">
-      <div id="gridWrap">
-         <ul class="dynamic-grid" angular-grid="pics" grid-width="400" gutter-size="0" refresh-on-img-load="false">
-            <li class="grid" data-ng-clock>
-               <img src="img/portfolio/bitsign.jpg" class="grid-img"/>
-               <div class="img-shadow-grid">
-                  <div class="text">
-                     <h4 class="client-name">Bitsign</h4>
-                     <h5 class="client-work">WebApp Development</h5>
+   <section class="section dark" id="portfolio">
+      <div class="container">
+         <h1 class="title white">Portfolio</h1>
+         
+         <div class="row">
+            <div class="col-sm-12 no-margin">
+               <div class="portfolio-inner">
+                  <img class="img-responsive" src="img/portfolio/bitsign.jpg">
+                  <div class="portfolio-data">
+                     <h4 class="link">
+                        <a href="https://bitsign.io/" target="_blank">
+                           <i class="flaticon-link"></i>
+                        </a>
+                     </h4>
+                     <div class="text">
+                        <h4 class="client">Bitsign</h4>
+                        <h4 class="work">WebApp Development</h4>
+                     </div>
                   </div>
-                  <a class="client-link" href="https://bitsign.io/" target="_blank">
-                     <i class="flaticon-link"></i>
-                  </a>
                </div>
-            </li>
-            
-            <li class="grid" data-ng-clock>
-               <img src="img/portfolio/sinaptica.jpg" class="grid-img"/>
-               <div class="img-shadow-grid">
-                  <div class="text">
-                     <h4 class="client-name">Sinaptica S.A.</h4>
-                     <h5 class="client-work">Web Development</h5>
+            </div>
+            <div class="col-sm-6 col-md-4 no-margin">
+               <div class="portfolio-inner">
+                  <img class="img-responsive" src="img/portfolio/sinaptica.jpg">
+                  <div class="portfolio-data">
+                     <h4 class="link">
+                        <a href="https://sinapticasecurity.com/" target="_blank">
+                           <i class="flaticon-link"></i>
+                        </a>
+                     </h4>
+                     <div class="text">
+                        <h5 class="client">Sinaptica S.A.</h5>
+                        <h5 class="work">Web Development</h5>
+                     </div>
                   </div>
-                  <a class="client-link" href="https://sinapticasecurity.com/" target="_blank">
-                     <i class="flaticon-link"></i>                        
-                  </a>
                </div>
-            </li>
-
-            <li class="grid" data-ng-clock>
-               <img src="img/portfolio/gsw.jpg" class="grid-img"/>
-               <div class="img-shadow-grid">
-                  <div class="text">
-                     <h4 class="client-name">Global Softworks</h4>
-                     <h5 class="client-work">Web Design</h5>
+            </div>
+            <div class="col-sm-6 col-md-4 no-margin">
+               <div class="portfolio-inner">
+                  <img class="img-responsive" src="img/portfolio/cryptologic.jpg">
+                  <div class="portfolio-data">
+                     <h4 class="link">
+                        <a href="https://cryptologic.io/" target="_blank">
+                           <i class="flaticon-link"></i>
+                        </a>
+                     </h4>
+                     <div class="text">
+                        <h5 class="client">Cryptologic</h5>
+                        <h5 class="work">Web Development</h5>
+                     </div>
                   </div>
-                  <a class="client-link" href="http://globalsoftworks.com/" target="_blank">
-                     <i class="flaticon-link"></i>                        
-                  </a>
                </div>
-            </li>            
-            
-
-            <li class="grid" data-ng-clock>
-               <img src="img/portfolio/cryptologic.jpg" class="grid-img"/>
-               <div class="img-shadow-grid">
-                  <div class="text">
-                     <h4 class="client-name">Cryptologic</h4>
-                     <h5 class="client-work">Web Development</h5>
+            </div>
+            <div class="col-sm-6 col-md-4 no-margin">
+               <div class="portfolio-inner">
+                  <img class="img-responsive" src="img/portfolio/gsw.jpg">
+                  <div class="portfolio-data">
+                     <h4 class="link">
+                        <a href="http://globalsoftworks.com/" target="_blank">
+                           <i class="flaticon-link"></i>
+                        </a>
+                     </h4>
+                     <div class="text">
+                        <h5 class="client">Global Softwors</h5>
+                        <h5 class="work">Web Design</h5>
+                     </div>
                   </div>
-                  <a class="client-link" href="https://cryptologic.io/" target="_blank">
-                     <i class="flaticon-link"></i>
-                  </a>
                </div>
-            </li>            
-         </ul>
+            </div>
+         </div>
       </div>
    </section>
    <!-- PORTFOLIO END -->
+
+   <!-- GITHUB BANNER BEGIN -->
+   <a href="https://github.com/npaez" target="_blank">
+      <section class="section section-img-2">
+         <div class="bg-shadow"></div>
+         <div class="container">
+            <h1 class="banner-title">Check my <span>GitHub</span></h1>
+         </div>
+      </section>
+   </a>
+   <!-- GITHUB BANNER END -->
+
+   <!-- WORK TIMELINE BEGIN -->
+   <!--
+   <section class="section">
+      <div class="container">
+         <h1 class="title">Work Timeline</h1>
+      </div>
+   </section>
+   -->
+   <!-- WORK TIMELINE END -->
+
+   <!-- SKILLS & LANGUAGES BEGIN -->
+   <section class="section white">
+      <div class="container">
+         <h1 class="title">Skills</h1>
+
+         <div class="row">
+            <div class="col-sm-offset-2 col-sm-8">
+               <div class="skill">
+                  <span class="skill-name">HTML5 / CSS3</span>
+                  <div class="skill-bar sb-primary">
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                  </div>
+               </div>
+
+               <div class="skill">
+                  <span class="skill-name">Angular.JS</span>
+                  <div class="skill-bar sb-primary">
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-off"></div>
+                  </div>
+               </div>
+
+               <div class="skill">
+                  <span class="skill-name">Node.JS</span>
+                  <div class="skill-bar sb-primary">
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-off"></div>
+                     <div class="skill-rate-off"></div>
+                  </div>
+               </div>
+
+               <div class="skill">
+                  <span class="skill-name">Jquery</span>
+                  <div class="skill-bar sb-primary">
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-off"></div>
+                     <div class="skill-rate-off"></div>
+                  </div>
+               </div>
+
+               <div class="skill">
+                  <span class="skill-name">Ionic</span>
+                  <div class="skill-bar sb-primary">
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-on"></div>
+                     <div class="skill-rate-off"></div>
+                     <div class="skill-rate-off"></div>
+                     <div class="skill-rate-off"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6"></div>
+         </div>
+      </div>
+   </section>
+   <!-- SKILLS & LANGUAGES END -->
 
    <!-- CONTACT BEGIN -->
    <div class="gmap-inner" id="contact" ng-controller="gmapsCtrl">

@@ -15,8 +15,7 @@ a,
 a:active,
 a:focus { color: #55a79a; transition: .3s; text-decoration: none; font-weight: 400; }
 a:hover { text-decoration: none; color: #44857b; }
-.container-fluid { padding-left: 270px; }
-
+p { font-weight: 300; font-size: 16px; color: #444; }
 /*!
  * SIDE BAR
  * STYLE
@@ -103,12 +102,11 @@ a:hover { text-decoration: none; color: #44857b; }
    z-index: 9;
 }
 
-.section.white {
-   background-color: #fff;
-}
+.section.white { background-color: #fff; }
+.section.dark { background-color: #55a79a }
 
 .section .bg-shadow {
-   background-color: rgba(255, 255, 255, .7);
+   background-color: rgba(255, 255, 255, .8);
    position: absolute;
    width: 100%;
    height: 100%;
@@ -126,25 +124,45 @@ a:hover { text-decoration: none; color: #44857b; }
    border-bottom: 0;
 }
 
+.section.section-img-2 {
+   background-image: url(../img/banner.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   border-bottom: 0;
+}
+
 .section .title {
    text-align: center;
    font-weight: 300;
    margin-bottom: 60px;
    position: relative;
+   color: #55a79a;
 }
+
+.section .banner-title {
+   font-weight: 300;
+   text-align: center;
+   margin: 30px 0;
+   position: relative;
+   color: #222;
+   z-index: 10;
+}
+
+.section .banner-title span { font-weight: 400; }
+
+.section .title.white { color: #fff; }
 
 .section .title.no-margin-bottom {
    margin-bottom: 0;
 }
 
-.section .title:after {
-   content: '';
-   width: 50px;
-   height: 2px;
-   background-color: #55a79a;
-   margin: 10px auto;
+.img-profile {
+   width: 100px;
+   border-radius: 50%;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);  
+   margin: 0 auto 40px;
    display: block;
-   bottom: 0;
 }
 
 /*!
@@ -289,22 +307,57 @@ a:hover { text-decoration: none; color: #44857b; }
    text-transform: uppercase;
 }
 
+/*!
+ * SERVICES
+ * STYLE
+ **/
+.service {
+   position: relative;
+   margin-bottom: 40px;
+}
+
+.service .service-title {
+   text-align: center;
+}
+
+.service .service-title i {
+   font-size: 50px;
+}
+
+.service .service-title i.inside-icon {
+   position: absolute;
+   font-size: 26px;
+   top: 20px;
+   font-weight: 500;
+   margin-left: -39px;
+}
+
+.service .service-title h4 {
+   margin: -5px 0 20px;
+}
 
 
 /*!
  * PORTFOLIO
  * STYLE
  **/
-#gridWrap {
-   margin-left: 249px;
-   padding-bottom: 40px;
-   border-bottom: 1px solid rgba(0, 0, 0, .09);
+.portfolio-inner {
+   position: relative;
+   margin: 4px;
+}
+
+.no-margin {
+   padding: 0 !important;
+}
+
+.portfolio-inner img {
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+   border-top: 1px solid #f8f8f8;
 }
 
 
-li.grid .img-shadow-grid {
-   background-color: rgba(255, 255, 255, .3);
-   z-index: 6;
+.portfolio-inner .portfolio-data {
+   background-color: rgba(255, 255, 255, .05);
    position: absolute;
    width: 100%;
    height: 100%;
@@ -313,40 +366,52 @@ li.grid .img-shadow-grid {
    transition: .3s;
 }
 
-li.grid .img-shadow-grid .client-link,
-li.grid .img-shadow-grid .text {
-   bottom: -200px;
+.portfolio-inner:hover .portfolio-data {
+   background-color: rgba(0, 0, 0, .7);
+}
+
+.portfolio-inner .portfolio-data .text {
    position: absolute;
+   bottom: 30px;
+   left: 30px;
 }
 
-li.grid .img-shadow-grid .text .client-name {
-   color: #fff;
+.portfolio-inner .portfolio-data h5,
+.portfolio-inner .portfolio-data h4.link a {
+   opacity: 0;
+}
+
+.portfolio-inner .portfolio-data h5,
+.portfolio-inner .portfolio-data h4 {
+   opacity: 0;
+   margin: 0;
+   transition: .3s;
    font-weight: 700;
-   margin-bottom: 0;
+   padding: 0 10px;
 }
 
-li.grid .img-shadow-grid .text .client-work {
+.portfolio-inner:hover .portfolio-data h5.link a,
+.portfolio-inner:hover .portfolio-data h5,
+.portfolio-inner:hover .portfolio-data h4.link a,
+.portfolio-inner:hover .portfolio-data h4 { opacity: 1; }
+
+.portfolio-inner .portfolio-data h5.client,
+.portfolio-inner .portfolio-data h4.client {
+   color: #fff; 
+   margin-bottom: 4px;
+}
+
+.portfolio-inner .portfolio-data h5.work,
+.portfolio-inner .portfolio-data h4.work {
    color: #55a79a;
-   font-weight: 700;
-   margin-top: 5px;
 }
 
-li.grid:hover .img-shadow-grid .client-link {
+.portfolio-inner .portfolio-data h5.link a,
+.portfolio-inner .portfolio-data h4.link a {
    color: #fff;
-   font-weight: bold;
+   position: absolute;
    top: 20px;
    right: 20px;
-   font-size: 16px;
-}
-
-li.grid:hover .img-shadow-grid {
-   background-color: rgba(0, 0, 0, .85);
-}
-
-li.grid:hover .img-shadow-grid .text {
-   bottom: 20px;
-   left: 20px;
-   right: 0;
 }
 
 /*!
@@ -359,19 +424,17 @@ li.grid:hover .img-shadow-grid .text {
 }
 
 .gmaps {
-   margin-left: 250px;
    width: 100%;
    height: 600px;
 }
 
 .left-data {
    position: absolute;
-   width: 50%;
    height: 100%;
    left: 0;
    top: 0;
    background-color: rgba(255, 255, 255, .92);
-   padding: 20px 20px 20px 270px;
+   padding: 20px 50px;
    box-shadow: 3px 0px 5px 0 rgba(0,0,0,0.04), 3px 0px 5px 0 rgba(0,0,0,0.05);
 }
 
@@ -397,13 +460,10 @@ li.grid:hover .img-shadow-grid .text {
 .contact-inner .contact-info span { display: block; }
 
 
-
-
-
-
-
-
-
+/*!
+ * FOOTER
+ * STYLE
+ **/
 .footer {
    background-color: #55a79a;
    padding: 15px 0 16px;
