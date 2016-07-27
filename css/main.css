@@ -13,8 +13,8 @@ body { height: 100%; min-height: 100%; }
 body { background: #fafafa; font-family: 'Open Sans'; letter-spacing: 2px; font-weight: 400; }
 a,
 a:active,
-a:focus { color: #55a79a; transition: .3s; text-decoration: none; font-weight: 400; }
-a:hover { text-decoration: none; color: #44857b; }
+a:focus { color: #00BCD4; transition: .3s; text-decoration: none; font-weight: 400; }
+a:hover { text-decoration: none; color: #4DD0E1; }
 p { font-weight: 300; font-size: 16px; color: #444; }
 
 /*!
@@ -29,7 +29,7 @@ p { font-weight: 300; font-size: 16px; color: #444; }
 }
 
 .section.white { background-color: #fff; }
-.section.dark { background-color: #55a79a }
+.section.dark { background-color: #212121 }
 
 .section .bg-shadow {
    background-color: rgba(255, 255, 255, .8);
@@ -65,7 +65,7 @@ p { font-weight: 300; font-size: 16px; color: #444; }
    font-weight: 300;
    margin-bottom: 60px;
    position: relative;
-   color: #55a79a;
+   color: #00BCD4;
 }
 
 .section .title.middle-title {
@@ -110,7 +110,6 @@ p { font-weight: 300; font-size: 16px; color: #444; }
 
 .main-title h1 {
    margin: 0 0 6px 0;
-   text-transform: uppercase;
    font-size: 50px;
    font-weight: 700;
 }
@@ -132,7 +131,7 @@ p { font-weight: 300; font-size: 16px; color: #444; }
    margin-bottom: 20px;
 }
 
-.sb-primary .skill-rate-on { background-color: #55a79a }
+.sb-primary .skill-rate-on { background-color: #242424; }
 
 .skill-rate-off,
 .skill-rate-on {
@@ -142,7 +141,7 @@ p { font-weight: 300; font-size: 16px; color: #444; }
 }
 
 .skill .skill-rate-on:first-child {
-   border-left: 3px solid #55a79a;
+   border-left: 3px solid #242424;
 }
 
 .skill-rate-off {}
@@ -216,14 +215,18 @@ p { font-weight: 300; font-size: 16px; color: #444; }
 }
 
 .portfolio-inner:hover .portfolio-data {
-   background-color: rgba(0, 0, 0, .7);
+   background-color: rgba(255, 255, 255, .9);
 }
 
 .portfolio-inner .portfolio-data .text {
    position: absolute;
-   bottom: 30px;
    left: 30px;
+   right: 30px;
+   top: 50%;
+   margin-top: -34.5px;
 }
+
+.portfolio-inner .portfolio-data h4.link { margin-top: 16px; }
 
 .portfolio-inner .portfolio-data h5,
 .portfolio-inner .portfolio-data h4.link a {
@@ -235,8 +238,9 @@ p { font-weight: 300; font-size: 16px; color: #444; }
    opacity: 0;
    margin: 0;
    transition: .3s;
-   font-weight: 700;
+   font-weight: 400;
    padding: 0 10px;
+   text-align: center;
 }
 
 .portfolio-inner:hover .portfolio-data h5.link a,
@@ -246,22 +250,28 @@ p { font-weight: 300; font-size: 16px; color: #444; }
 
 .portfolio-inner .portfolio-data h5.client,
 .portfolio-inner .portfolio-data h4.client {
-   color: #fff; 
+   color: #222; 
    margin-bottom: 4px;
 }
 
 .portfolio-inner .portfolio-data h5.work,
 .portfolio-inner .portfolio-data h4.work {
-   color: #55a79a;
+   color: #00BCD4;
 }
 
 .portfolio-inner .portfolio-data h5.link a,
 .portfolio-inner .portfolio-data h4.link a {
-   color: #fff;
-   position: absolute;
-   top: 20px;
-   right: 20px;
+   color: #888;
+   font-weight: bold;
 }
+
+.portfolio-inner .portfolio-data h5.link a i,
+.portfolio-inner .portfolio-data h4.link a i {
+   background-color: #ddd;
+   border-radius: 50%;
+   padding: 5px 5px 5px 7px;
+}
+
 
 /*!
  * TIMELINE
@@ -274,7 +284,7 @@ p { font-weight: 300; font-size: 16px; color: #444; }
 .work img.sinaptica { margin-bottom: 5px; }
 .work .pos,
 .work .date { display: block; }
-.work .pos { color: #55a79a }
+.work .pos { color: #00BCD4 }
 
 /*!
  * CONTACT
@@ -353,18 +363,18 @@ p { font-weight: 300; font-size: 16px; color: #444; }
    transition: .3s;
    border-width: 2px;
    font-weight: 400;
-   color: #55a79a
+   color: #00BCD4
 }
 
 .card .contact-title .btn:hover,
 .card .contact-title .btn:active,
 .card .contact-title .btn:focus {
    border-width: 2px;
-   border-color: #55a79a;
+   border-color: #00BCD4;
 }
 
 .btn-map {
-   color: #55a79a;
+   color: #00BCD4;
    padding: 10px 12px;
    font-weight: 300;
    letter-spacing: 2px;
@@ -385,7 +395,7 @@ p { font-weight: 300; font-size: 16px; color: #444; }
 .btn-map:focus { box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); }
 
 .btn-map:hover {
-   color: #55a79a;
+   color: #00BCD4;
    border-color: rgba(255, 255, 255, .9);
    background-color: rgba(255, 255, 255, .9);
 }
@@ -396,7 +406,7 @@ p { font-weight: 300; font-size: 16px; color: #444; }
  * STYLE
  **/
 .footer {
-   background-color: #55a79a;
+   background-color: #212121;
    padding: 15px 0 16px;
    box-shadow: inset 0 3px 6px rgba(0, 0, 0, .12);
 }
@@ -405,6 +415,6 @@ p { font-weight: 300; font-size: 16px; color: #444; }
    text-align: center;
    color: #fff;
    margin: 0;
-   font-weight: 400;
-   text-transform: uppercase;
+   font-weight: 300;
+   letter-spacing: 3px;
 }
