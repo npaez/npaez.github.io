@@ -1,9 +1,7 @@
 angular
    .module('npaez', [
       'ngAnimate',
-      'ui.bootstrap',
-      'duScroll',
-      'angularGrid'
+      'ui.bootstrap'
    ])
    .config(function() {
       function initialize() {
@@ -16,12 +14,12 @@ angular
       };
       google.maps.event.addDomListener(window, 'load', initialize);
    })
-   .controller('sliderCtrl', function ($scope) {
-      
-   })
-   .controller('gmapsCtrl', function ($scope) {
-      
-   })
+   .controller('gmapsCtrl', function($scope) {
+         $scope.mapVisible    = true;
+         $scope.setMapVisible = function() {
+            $scope.mapVisible ? $scope.mapVisible = false : $scope.mapVisible = true;
+         }
+      })
    .controller('footerCtrl', function($scope) {
       $scope.currentDate = new Date().getFullYear();
    });
