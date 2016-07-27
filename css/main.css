@@ -267,27 +267,14 @@ p { font-weight: 300; font-size: 16px; color: #444; }
  * TIMELINE
  * STYLE
  **/
-.work {
-   margin-bottom: 30px;
-}
-
+.work { margin-bottom: 35px; }
 .work .pos,
-.work img {
-   margin-bottom: 10px;
-}
-
-.work img.sinaptica {
-   margin-bottom: 5px;
-}
-
+.work img { margin-bottom: 10px; }
+.work img { width: 120px; }
+.work img.sinaptica { margin-bottom: 5px; }
 .work .pos,
-.work .date {
-   display: block;
-}
-
-.work .pos {
-   color: #55a79a
-}
+.work .date { display: block; }
+.work .pos { color: #55a79a }
 
 /*!
  * CONTACT
@@ -365,18 +352,19 @@ p { font-weight: 300; font-size: 16px; color: #444; }
    border-radius: 0;
    transition: .3s;
    border-width: 2px;
-   background-color: rgba(0, 0, 0, .03);
+   font-weight: 400;
+   color: #55a79a
 }
 
 .card .contact-title .btn:hover,
 .card .contact-title .btn:active,
 .card .contact-title .btn:focus {
    border-width: 2px;
-   border-color: rgba(0, 0, 0, .0);
-   background-color: rgba(0, 0, 0, .08);
+   border-color: #55a79a;
 }
 
 .btn-map {
+   color: #55a79a;
    padding: 10px 12px;
    font-weight: 300;
    letter-spacing: 2px;
@@ -397,6 +385,7 @@ p { font-weight: 300; font-size: 16px; color: #444; }
 .btn-map:focus { box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); }
 
 .btn-map:hover {
+   color: #55a79a;
    border-color: rgba(255, 255, 255, .9);
    background-color: rgba(255, 255, 255, .9);
 }

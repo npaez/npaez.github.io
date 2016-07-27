@@ -6,7 +6,7 @@ angular
    .config(function() {
       function initialize() {
          new google.maps.Map(document.getElementById("googleMap"), {
-            center: new google.maps.LatLng(-32.956029, -60.6480352),
+            center: new google.maps.LatLng(-32.9585724, -60.6330122),
             zoom: 15,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: false
