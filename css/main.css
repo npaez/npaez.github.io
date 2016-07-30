@@ -31,8 +31,8 @@ p { font-weight: 300; font-size: 16px; color: #444; }
 .section.white { background-color: #fff; }
 .section.dark { background-color: #212121 }
 
+.section .bg-main-shadow,
 .section .bg-shadow {
-   background-color: rgba(255, 255, 255, .8);
    transition: .3s;
    position: absolute;
    width: 100%;
@@ -43,12 +43,20 @@ p { font-weight: 300; font-size: 16px; color: #444; }
    left: 0;
 }
 
+.section .bg-shadow {
+   background-color: rgba(255, 255, 255, .8);
+}
+
+.section .bg-main-shadow {
+   background: linear-gradient(180deg, rgba(255, 255, 255, .7) 32%, rgba(255, 255, 255, 1) 91%);
+}
+
 .section.section-img {
    background-image: url(../img/background.jpg);
    background-position: bottom;
    background-attachment: fixed;
    background-size: cover;
-   min-height: 500px;
+   height: 100%;
    border-bottom: 0;
 }
 
@@ -104,8 +112,12 @@ p { font-weight: 300; font-size: 16px; color: #444; }
  **/
 .main-title {
    z-index: 11;
-   position: relative;
-   padding: 113px 30px;
+   position: absolute;
+   text-align: center;
+   width: 100%;
+   left: 0;
+   top: 50%;
+   margin-top: -85.5px;
 }
 
 .main-title h1 {
