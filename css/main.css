@@ -31,7 +31,6 @@ p { font-weight: 300; font-size: 16px; color: #444; }
 .section.white { background-color: #fff; }
 .section.dark { background-color: #212121 }
 
-.section .bg-main-shadow,
 .section .bg-shadow {
    transition: .3s;
    position: absolute;
@@ -41,14 +40,7 @@ p { font-weight: 300; font-size: 16px; color: #444; }
    right: 0;
    bottom: 0;
    left: 0;
-}
-
-.section .bg-shadow {
    background-color: rgba(255, 255, 255, .8);
-}
-
-.section .bg-main-shadow {
-   background: linear-gradient(180deg, rgba(255, 255, 255, .7) 32%, rgba(255, 255, 255, 1) 91%);
 }
 
 .section.section-img {
