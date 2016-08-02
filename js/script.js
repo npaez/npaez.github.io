@@ -20,6 +20,4 @@ angular
             $scope.mapVisible ? $scope.mapVisible = false : $scope.mapVisible = true;
          }
       })
-   .controller('footerCtrl', function($scope) {
-      $scope.currentDate = new Date().getFullYear();
-   });
+   .controller('footerCtrl', function($scope) { $scope.currentDate = new Date().getFullYear(); });

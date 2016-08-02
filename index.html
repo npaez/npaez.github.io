@@ -3,6 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="theme-color" content="#00B0FF">
    <title>Nestor Paez · Developer</title>
    <link href="css/bootstrap.min.css" rel="stylesheet">
    <link href="css/animate.css" rel="stylesheet">
@@ -13,11 +14,12 @@
    <!-- PROFILE BEGIN -->
    <section id="index" class="section section-img">
       <div class="bg-shadow"></div>
-      <div class="main-title text-center">
-         <h4>I am</h4>
-         <h1>Nestor Paez</h1>
-         <h4>a full-stack developer</h4>
-      </div>
+         <div class="container">
+            <div class="main-title">
+               <h1>Nestor Paez</h1>
+               <h3>Full-stack developer</h3>
+            </div>
+         </div>
       </div>
    </section>
    <!-- PROFILE END -->
@@ -26,13 +28,20 @@
    <section class="section white">
       <div class="container">
          <div class="row">
-            <div class="col-sm-offset-2 col-sm-8">
-               <img class="img-profile" src="img/profile.png">
-               <p class="text-center">I'm a twenty five years old programmer from Argentina.
+            <div class="col-sm-12">
+               <div class="title-inner">
+                  <h1 class="dark">About me</h1>
+                  <h3>Something between developer, designer and coffee addict</h3>
+               </div>
+            </div>
+            <div class="col-sm-offset-4 col-sm-4">
+               <p>I'm a twenty five years old programmer from Argentina.
                I'm specialized in web development, also interested in programming languages,
-               algorithms, optimizations, UI/UX design and open source software.
-               I have a passion for creating challenging, intuitive and beautiful products.</p>
-               <p class="text-center">Currently, I work as front-end developer at
+               algorithms, optimizations, UI/UX design and open source software.</p>
+            </div>
+            <div class="col-sm-4">
+               <p>I have a passion for creating challenging, intuitive and beautiful products.</p>
+               <p>Currently, I work as front-end developer at
                <a href="https://sinapticasecurity.com/" target="_blank">Sinaptica</a>.</p>
             </div>
          </div>
@@ -43,36 +52,56 @@
    <!-- SERVICES BEGIN -->
    <section class="section">
       <div class="container">
-         <h1 class="title">Services</h1>
-
          <div class="row">
-            <div class="col-sm-offset-2 col-sm-8">
-               <div class="service">
+            <div class="col-sm-12">
+               <div class="title-inner">
+                  <h1 class="dark">Services</h1>
+                  <h3>What do I offer?</h3>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-offset-4 col-sm-4">
+               <div class="service-inner">
                   <div class="service-title">
                      <i class="flaticon-browser-3"></i>
                      <i class="inside-icon flaticon-settings-1"></i>
                      <h4>WebApp Development</h4>
                   </div>
                   
-                  <p class="text-center">The backbone supporting the cutting edge web-design
-                  is the most important thing in web application development.
-                  That's why following good practices and using the latest technologies,
+                  <p>The backbone supporting the cutting edge web-design
+                  is the most important thing in web application development.<br>
+                  Following good practices and using the latest technologies,
                   I focus on developing secure, robust and scalable applications for your business.</p>
                </div>
-
-               <div class="service">
+            </div>
+            <div class="col-sm-4">
+               <div class="service-inner">
                   <div class="service-title">
                      <i class="flaticon-browser-3"></i>
                      <i class="inside-icon flaticon-writing-tool-1"></i>
                      <h4>Web Design</h4>
                   </div>
                   
-                  <p class="text-center">I have gained a lot of experience designing and building many
-                  responsive websites. A key area of focus in my design process is to ensure the best
-                  interaction for each situation to facilitate the user experience.<br>
-                  Clean and simple designs are my most fundamental criteria at the time of create a new project.</p>
+                  <p>I have gained a lot of experience designing and building many
+                  responsive websites.<br>
+                  A key area of focus in my design process is to ensure the best
+                  interaction for each situation to facilitate the user experience.</p>
                </div>
-            </div>   
+            </div>
+
+            <div class="col-sm-offset-4 col-sm-4">
+               <div class="service-inner">
+                  <div class="service-title">
+                     <i class="flaticon-browser-3"></i>
+                     <i class="inside-icon flaticon-worldwide"></i>
+                     <h4>UI/UX Consultancy</h4>
+                  </div>
+                  
+                  <p>A solid digital experience is in the macro and micro details of the design.<br>
+                  I will help you create a product that gives your customers a unique experience.</p>
+               </div>
+            </div>
          </div>
       </div>
    </section>
@@ -81,101 +110,99 @@
    <!-- PORTFOLIO BEGIN -->
    <section class="section dark" id="portfolio">
       <div class="container">
-         <h1 class="title white">Work</h1>
+         <div class="row">
+            <div class="col-sm-12">
+               <div class="title-inner">
+                  <h1>Portfolio</h1>
+                  <h3>Working hard... or hardly working?</h3>
+               </div>
+            </div>
+         </div>
          
          <div class="row">
-            <div class="col-sm-12 no-margin">
-               <div class="portfolio-inner">
-                  <img class="img-responsive" src="img/portfolio/bitsign.jpg">
-                  <div class="portfolio-data">
-                     <div class="text">
-                        <h4 class="client">BitSign</h4>
-                        <h4 class="work">WebApp Development</h4>
-                        <h4 class="link">
-                           <a href="https://bitsign.io/" target="_blank">
-                              <i class="flaticon-link"></i>
-                           </a>
-                        </h4>
+            <div class="col-sm-offset-4 col-sm-4 no-margin">
+               <a href="https://sinapticasecurity.com/" target="_blank">
+                  <div class="portfolio-inner">
+                     <img class="img-responsive" src="img/portfolio/sinaptica.jpg">
+                     <div class="portfolio-data">
+                        <div class="text">
+                           <h4 class="client">Sinaptica S.A.</h4>
+                           <h4 class="work">Web Development</h4>
+                        </div>
                      </div>
                   </div>
-               </div>
+               </a>
             </div>
-            <div class="col-sm-6 col-md-4 no-margin">
-               <div class="portfolio-inner">
-                  <img class="img-responsive" src="img/portfolio/contratup.jpg">
-                  <div class="portfolio-data">
-                     <div class="text">
-                        <h5 class="client">ContratUp</h5>
-                        <h5 class="work">WebApp Development</h5>
-                        <h4 class="link">
-                           <a href="http://contratup.com/" target="_blank">
-                              <i class="flaticon-link"></i>
-                           </a>
-                        </h4>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-sm-6 col-md-4 no-margin">
-               <div class="portfolio-inner">
-                  <img class="img-responsive" src="img/portfolio/cryptologic.jpg">
-                  <div class="portfolio-data">
-                     <div class="text">
-                        <h5 class="client">Cryptologic</h5>
-                        <h5 class="work">Web Development</h5>
-                        <h4 class="link">
-                           <a href="https://cryptologic.io/" target="_blank">
-                              <i class="flaticon-link"></i>
-                           </a>
-                        </h4>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-sm-6 col-md-4 no-margin">
-               <div class="portfolio-inner">
-                  <img class="img-responsive" src="img/portfolio/gsw.jpg">
-                  <div class="portfolio-data">
-                     <div class="text">
-                        <h5 class="client">Global Softworks</h5>
-                        <h5 class="work">Web Design</h5>
-                        <h4 class="link">
-                           <a href="http://globalsoftworks.com/" target="_blank">
-                              <i class="flaticon-link"></i>
-                           </a>
-                        </h4>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-sm-6 col-md-6 no-margin">
-               <div class="portfolio-inner">
-                  <img class="img-responsive" src="img/portfolio/sinaptica.jpg">
-                  <div class="portfolio-data">
-                     <div class="text">
-                        <h5 class="client">Sinaptica S.A.</h5>
-                        <h5 class="work">Web Development</h5>
-                        <h4 class="link">
-                           <a href="https://sinapticasecurity.com/" target="_blank">
-                              <i class="flaticon-link"></i>
-                           </a>
-                        </h4>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-sm-12 col-md-6 no-margin">
+            <div class="col-sm-4 no-margin">
                <div class="portfolio-inner">
                   <img class="img-responsive" src="img/portfolio/bitsign-app.jpg">
                   <div class="portfolio-data">
                      <div class="text">
-                        <h5 class="client">BitSign Prototype</h5>
-                        <h5 class="work">Mobile Development</h5>
+                        <h4 class="client">BitSign Prototype</h4>
+                        <h4 class="work">Mobile Development</h4>
                      </div>
                   </div>
                </div>
             </div>
          </div>
+         <div class="row">
+            <div class="col-sm-offset-4 col-sm-8 no-margin">
+               <a href="https://bitsign.io/" target="_blank">
+                  <div class="portfolio-inner">
+                     <img class="img-responsive" src="img/portfolio/bitsign.jpg">
+                     <div class="portfolio-data">
+                        <div class="text">
+                           <h4 class="client">BitSign</h4>
+                           <h4 class="work">WebApp Development</h4>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-offset-4 col-sm-4 no-margin">
+               <a href="http://contratup.com/" target="_blank">
+                  <div class="portfolio-inner">
+                     <img class="img-responsive" src="img/portfolio/contratup.jpg">
+                     <div class="portfolio-data">
+                        <div class="text">
+                           <h4 class="client">ContratUp</h4>
+                           <h4 class="work">WebApp Development</h4>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </div>
+            <div class="col-sm-4 no-margin">
+               <a href="http://globalsoftworks.com/" target="_blank">
+                  <div class="portfolio-inner">
+                     <img class="img-responsive" src="img/portfolio/gsw.jpg">
+                     <div class="portfolio-data">
+                        <div class="text">
+                           <h4 class="client">Global Softworks</h4>
+                           <h4 class="work">Web Design</h4>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-offset-8 col-sm-4 no-margin">
+               <a href="https://cryptologic.io/" target="_blank">
+                  <div class="portfolio-inner">
+                     <img class="img-responsive" src="img/portfolio/cryptologic.jpg">
+                     <div class="portfolio-data">
+                        <div class="text">
+                           <h4 class="client">Cryptologic</h4>
+                           <h4 class="work">Web Development</h4>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </div>
+         </div>         
       </div>
    </section>
    <!-- PORTFOLIO END -->
@@ -185,178 +212,61 @@
       <section class="section section-img-2">
          <div class="bg-shadow"></div>
          <div class="container">
-            <h1 class="banner-title">Check my <span>GitHub</span></h1>
+            <div class="title-inner">
+               <h1>Check my GitHub</h1>
+               <h3>I code things</h3>
+            </div>
          </div>
       </section>
    </a>
    <!-- GITHUB BANNER END -->
 
-   <!-- RESUME BEGIN -->
-   <section class="section white">
-      <div class="container">
-         <div class="row">
-            <div class="col-sm-6">
-               <h2 class="title">Experience</h2>
-               
-               <div class="work">
-                  <img class="img-responsive sinaptica" src="img/work/bitsign.png">
-                  <span class="date">May 2016 - Present</span>
-                  <span class="pos">Full-Stack Developer</span>
-                  <p>BitSign is a simple and robust method of comprehensive verification of acts,
-                  documents and digital transactions, complying with legal standards and
-                  providing maximum transparency.<br>
-                  To the date this project is under development.</p>
-               </div>
-
-               <div class="work">
-                  <img class="img-responsive" src="img/work/bitcharts.png">
-                  <span class="date">Feb 2015 - Dec 2015</span>
-                  <span class="pos">Front-End Developer</span>
-                  <p>Bitcharts was the first open-source argentinian site to provide the necesary 
-                  tools to convert Bitcoin to local fiat currency (ARS) and check its value.</p>
-                  <p>In December of 2015, the project has ceased development. The source code can be found in this 
-                  <a href="https://github.com/maxidev/bitcharts-node" target="_blank">repository</a>.</p>
-               </div>
-
-               <div class="work">
-                  <img class="img-responsive sinaptica" src="img/work/sinaptica.png">
-                  <span class="date">Nov 2014 - Present</span>
-                  <span class="pos">Front-End Developer</span>
-                  <p>Sinaptica is a team of security consultants and professional researchers from Argentina.<br>
-                  Provides security, consulting and development services of high complexity applications.</p>
-               </div>
-            </div>
-
-            <div class="col-sm-6">
-               <h2 class="title">Skills</h2>
-               
-               <div class="skill">
-                  <span class="skill-name">HTML5 / CSS3</span>
-                  <div class="skill-bar sb-primary">
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                  </div>
-               </div>
-
-               <div class="skill">
-                  <span class="skill-name">Angular.JS</span>
-                  <div class="skill-bar sb-primary">
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-off"></div>
-                  </div>
-               </div>
-
-               <div class="skill">
-                  <span class="skill-name">Javascript</span>
-                  <div class="skill-bar sb-primary">
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-off"></div>
-                     <div class="skill-rate-off"></div>
-                  </div>
-               </div>
-
-               <div class="skill">
-                  <span class="skill-name">Node.JS</span>
-                  <div class="skill-bar sb-primary">
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-off"></div>
-                     <div class="skill-rate-off"></div>
-                  </div>
-               </div>
-
-               <div class="skill">
-                  <span class="skill-name">Jquery</span>
-                  <div class="skill-bar sb-primary">
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-off"></div>
-                     <div class="skill-rate-off"></div>
-                  </div>
-               </div>
-
-               <div class="skill">
-                  <span class="skill-name">Ionic</span>
-                  <div class="skill-bar sb-primary">
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-off"></div>
-                     <div class="skill-rate-off"></div>
-                     <div class="skill-rate-off"></div>
-                  </div>
-               </div>
-
-
-               <h2 class="title middle-title">Languages</h2>
-               
-               <div class="skill">
-                  <span class="skill-name">Spanish</span>
-                  <div class="skill-bar sb-primary">
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                  </div>
-               </div>
-
-               <div class="skill">
-                  <span class="skill-name">English</span>
-                  <div class="skill-bar sb-primary">
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-on"></div>
-                     <div class="skill-rate-off"></div>
-                     <div class="skill-rate-off"></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- RESUME END -->
-
    <!-- CONTACT BEGIN -->
    <div class="gmap-inner" ng-controller="gmapsCtrl">
       <div id="googleMap" class="gmaps"></div>
 
-      <button type="button" class="btn btn-submit btn-map animated" ng-click="setMapVisible()" ng-class="{'notVisible': mapVisible}">Show info</button>
+      <button type="button" class="btn btn-submit btn-map animated" ng-click="setMapVisible()" ng-class="{'notVisible': mapVisible}">
+         <h4>Show info</h4>
+      </button>
 
       <div class="card" ng-class="{'notVisible': !mapVisible}">
-         <h5 class="contact-title">Location</h5>
-         <h5 class="contact-data">Rosario, Argentina</h5>
-
-         <h5 class="contact-title">Email</h5>
-         <h5 class="contact-data">
-            <a href="mailto:nestor.2005@gmail.com">nestor.2005@gmail.com</a>
-         </h5>
-
-         <h5 class="contact-title">Twitter</h5>
-         <h5 class="contact-data">
-            <a href="https://twitter.com/ntpaez" target="_blank">@ntpaez</a>
-         </h5>
-
-         <h4 class="contact-title">
-            <button type="button" class="btn btn-submit" ng-click="setMapVisible()">View on map</button>
-         </h4>
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="title-inner">
+                     <h1 class="dark">Contact me</h1>
+                     <h3>Drop me a line</h3>
+                  </div>                  
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-offset-4 col-sm-4">
+                  <h4 class="contact-title">Location</h4>
+                  <p class="contact-data">Rosario, Argentina</p>
+               </div>
+               <div class="col-sm-4">
+                  <h4 class="contact-title">Email</h4>
+                  <p class="contact-data">
+                     <a href="mailto:nestor.2005@gmail.com">nestor.2005@gmail.com</a>
+                  </p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-offset-4 col-sm-4">
+                  <h4 class="contact-title">Twitter</h4>
+                  <p class="contact-data">
+                     <a href="https://twitter.com/ntpaez" target="_blank">@ntpaez</a>
+                  </p>
+               </div>
+               <div class="col-sm-4">
+                  <h4 class="contact-title">
+                     <span ng-click="setMapVisible()">
+                        View on Map                        
+                     </span>
+                  </h4>
+               </div>
+            </div>
+         </div>
       </div>
    </div>
    <!-- CONTACT END -->
@@ -364,7 +274,7 @@
    <!-- FOOTER BEGIN -->
    <footer ng-controller="footerCtrl" class="footer">
       <div class="container-fluid">
-         <h5>{{ currentDate }} &copy; Nestor Paez</h5>
+         <h4>{{ currentDate }} &copy; Nestor Paez</h4>
       </div>
    </footer>
    <!-- FOOTER END -->
