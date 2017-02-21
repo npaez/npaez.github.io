@@ -112,18 +112,18 @@ h6 {
 
 @media only screen and (min-width : 992px) {
    .background-title.about {
-      line-height: 200px;
-      font-size: 300px;
+      line-height: 162px;
+      font-size: 250px;
    }
 
    .background-title.services {
-      line-height: 155px;
-      font-size: 254px;
+      line-height: 130px;
+      font-size: 224px;
    }
 
    .background-title.contact {
       line-height: 120px;
-      font-size: 240px;
+      font-size: 230px;
    }
 }
 
