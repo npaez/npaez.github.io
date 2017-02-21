@@ -24,7 +24,8 @@ h4,
 h5,
 h6 {
    font-family: 'Playfair Display';
-   color: #777;
+   color: #448AFF;
+   font-weight: 400;
 }
 
 .icon { position: relative; }
@@ -54,25 +55,76 @@ h6 {
 .background-title.about {
    color: rgba(0, 0, 0, .08);
    top: 0;
-   line-height: 200px;
+   line-height: 53px;
    margin-left: 0;
-   font-size: 300px;
+   font-size: 110px;
 }
 
 .background-title.services {
    color: rgba(0, 0, 0, .06);
    top: 0;
-   line-height: 155px;
+   line-height: 25px;
    margin-left: 0;
-   font-size: 254px;
+   font-size: 85px;
 }
 
 .background-title.contact {
    color: rgba(255, 255, 255, .08);
    top: 0;
-   line-height: 120px;
+   line-height: 14px;
    margin-left: 0;
-   font-size: 240px;
+   font-size: 80px;
+}
+
+@media only screen and (min-width : 570px) {
+   .background-title.about {
+      line-height: 99px;
+      font-size: 170px;
+   }
+
+   .background-title.services {
+      line-height: 66px;
+      font-size: 140px;
+   }
+
+   .background-title.contact {
+      line-height: 58px;
+      font-size: 140px;
+   }
+}
+
+@media only screen and (min-width : 768px) {
+   .background-title.about {
+      line-height: 125px;
+      font-size: 200px;
+   }
+
+   .background-title.services {
+      line-height: 99px;
+      font-size: 180px;
+   }
+
+   .background-title.contact {
+      line-height: 80px;
+      font-size: 180px;
+   }
+}
+
+@media only screen and (min-width : 992px) {
+   .background-title.about {
+      line-height: 200px;
+      font-size: 300px;
+   }
+
+   .background-title.services {
+      line-height: 155px;
+      font-size: 254px;
+   }
+
+   .background-title.contact {
+      line-height: 120px;
+      font-size: 240px;
+   }
 }
 
 /*!
@@ -130,7 +182,7 @@ h6 {
  **/
 .footer {
    position: relative;
-   padding: 100px 0;
+   padding: 120px 0;
    background-color: #1B1B25; }
 
 .footer h1.big-footer-text {
