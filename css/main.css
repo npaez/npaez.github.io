@@ -58,14 +58,12 @@ h6 {
    color: rgba(0, 0, 0, .08);
    line-height: 53px;
    font-size: 110px;
-   
 }
 
 .background-title.services {
    color: rgba(0, 0, 0, .06);
-   line-height: 25px;
+   line-height: 26px;
    font-size: 85px;
-   
 }
 
 .background-title.contact {
@@ -135,7 +133,7 @@ h6 {
    background-color: #fff;
 }
 
-.section.doble-padding { padding: 160px 0; }
+.section.doble-padding { padding: 140px 0; }
 .section.no-padding-bottom { padding-bottom: 0; }
 
 .section.white {
@@ -180,7 +178,7 @@ h6 {
  **/
 .footer {
    position: relative;
-   padding: 120px 0;
+   padding: 140px 0;
    background-color: #1B1B25; }
 
 .footer h1.big-footer-text {
