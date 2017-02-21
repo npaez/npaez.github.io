@@ -50,29 +50,27 @@ h6 {
    -webkit-user-select: none; /* Chrome/Safari */        
    -moz-user-select: none; /* Firefox */
    -ms-user-select: none; /* IE10+ */
+   margin-left: -10px;
+   top: 0;
 }
 
 .background-title.about {
    color: rgba(0, 0, 0, .08);
-   top: 0;
    line-height: 53px;
-   margin-left: 0;
    font-size: 110px;
+   
 }
 
 .background-title.services {
    color: rgba(0, 0, 0, .06);
-   top: 0;
    line-height: 25px;
-   margin-left: 0;
    font-size: 85px;
+   
 }
 
 .background-title.contact {
    color: rgba(255, 255, 255, .08);
-   top: 0;
    line-height: 14px;
-   margin-left: 0;
    font-size: 80px;
 }
 
