@@ -1,23 +1,15 @@
-angular
-   .module('npaez', [
-      'ngAnimate',
-      'ui.bootstrap'
-   ])
-   .config(function() {
-      function initialize() {
-         new google.maps.Map(document.getElementById("googleMap"), {
-            center: new google.maps.LatLng(-32.9585724, -60.6330122),
-            zoom: 15,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            scrollwheel: false
-         });
-      };
-      google.maps.event.addDomListener(window, 'load', initialize);
-   })
-   .controller('gmapsCtrl', function($scope) {
-         $scope.mapVisible    = true;
-         $scope.setMapVisible = function() {
-            $scope.mapVisible ? $scope.mapVisible = false : $scope.mapVisible = true;
-         }
-      })
-   .controller('footerCtrl', function($scope) { $scope.currentDate = new Date().getFullYear(); });
+$(document).ready(function() {
+   'use strict';
+
+   $('.sidebar-button').on('click', function(e) {
+      $('.sidebar-menu').toggleClass('visible');
+      $(".fa-bars").toggleClass("not-visible");
+      $(".fa-close").toggleClass("not-visible");
+      $("body").toggleClass("no-overflow");
+   });
+});
+
+
+
+
+$("#footerYear").text(new Date().getFullYear());

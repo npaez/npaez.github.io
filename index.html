@@ -1,288 +1,97 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="theme-color" content="#00B0FF">
-   <title>Nestor Paez · Developer</title>
-   <link href="css/bootstrap.min.css" rel="stylesheet">
-   <link href="css/animate.css" rel="stylesheet">
-   <link href="css/flaticon.css" rel="stylesheet">
-   <link href="css/main.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#00B0FF">
+  <title>debug the box</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 </head>
-<body ng-app="npaez" ng-cloak>
-   <!-- PROFILE BEGIN -->
-   <section id="index" class="section section-img">
-      <div class="bg-shadow"></div>
-         <div class="container">
-            <div class="main-title">
-               <h1>Nestor Paez</h1>
-               <h3>Full-stack developer</h3>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- PROFILE END -->
+<body>
+  <!-- SIDEBAR BEGIN -->
+  <nav>
+    <div class="sidebar-wrapper">
+      <div class="sidebar-header">
+        <button id="#buttonSideBar" class="btn sidebar-button">
+          <i class="fa fa-bars"></i>
+          <i class="fa fa-close not-visible"></i>
+        </button>
+        <div class="brand">
+          <span>debug</span>
+          <span>the box</span>
+        </div>
+      </div> <!-- /.sidebar-header -->
+    </div> <!-- /.sidebar-wrapper -->
+    <div class="sidebar-menu"> <!-- visible -->
+      <ul class="sidebar-ul">
+        <li class="active"><a href="">Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Team</a></li>
+        <li><a href="">Contact</a></li>
+      </ul> <!-- /.sidebar-ul -->
+    </div> <!-- /.sidebar-menu -->
+  </nav> <!-- /.nav -->
+  <!-- SIDEBAR END -->   
+
+  <!-- MAIN BEGIN -->
+  <section id="index" class="section section-img">
+    <div class="container">
+      <div class="main-title">
+        <h1>
+          <!--
+          <typer words="['Follow the white rabbit.']"
+                 type-time='150'
+                 backspace-time='200'
+                 start-delay='1500'
+                 start-typing="true"
+                 repeat="false">
+          </typer>  /.typer -->
+        </h1> <!-- /h1 -->
+      </div> <!-- /.main-title -->
+    </div> <!-- /.container -->
+  </section> <!-- /.section.section-img -->
+  <!-- MAIN END -->
    
-   <!-- ABOUT BEGIN -->
-   <section class="section white">
-      <div class="container">
-         <div class="row">
-            <div class="col-sm-12">
-               <div class="title-inner">
-                  <h1 class="dark">About me</h1>
-                  <h3>Something between developer, designer and coffee addict</h3>
-               </div>
-            </div>
-            <div class="col-sm-offset-4 col-sm-4">
-               <p>I'm a twenty five years old programmer from Argentina.
-               I'm specialized in web development, also interested in programming languages,
-               algorithms, optimizations, UI/UX design and open source software.</p>
-            </div>
-            <div class="col-sm-4">
-               <p>I have a passion for creating challenging, intuitive and beautiful products.</p>
-               <p>Currently, I work as front-end developer at
-               <a href="https://sinapticasecurity.com/" target="_blank">Sinaptica</a>.</p>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- ABOUT END -->
+  <!-- ABOUT BEGIN -->
+  <section class="section doble-padding white">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-offset-2 col-sm-8 text-center">
+          <h4>BASED IN ARGENTINA</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident.</p>
+        </div> <!-- /col-sm-8 -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+  </section> <!-- /.section -->
+  <!-- ABOUT END -->
 
-   <!-- SERVICES BEGIN -->
-   <section class="section">
-      <div class="container">
-         <div class="row">
-            <div class="col-sm-12">
-               <div class="title-inner">
-                  <h1 class="dark">Services</h1>
-                  <h3>What do I offer?</h3>
-               </div>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-sm-offset-4 col-sm-4">
-               <div class="service-inner">
-                  <div class="service-title">
-                     <i class="flaticon-browser-3"></i>
-                     <i class="inside-icon flaticon-settings-1"></i>
-                     <h4>WebApp Development</h4>
-                  </div>
-                  
-                  <p>The backbone supporting the cutting edge web-design
-                  is the most important thing in web application development.<br>
-                  Following good practices and using the latest technologies,
-                  I focus on developing secure, robust and scalable applications for your business.</p>
-               </div>
-            </div>
-            <div class="col-sm-4">
-               <div class="service-inner">
-                  <div class="service-title">
-                     <i class="flaticon-browser-3"></i>
-                     <i class="inside-icon flaticon-writing-tool-1"></i>
-                     <h4>Web Design</h4>
-                  </div>
-                  
-                  <p>I have gained a lot of experience designing and building many
-                  responsive websites.<br>
-                  A key area of focus in my design process is to ensure the best
-                  interaction for each situation to facilitate the user experience.</p>
-               </div>
-            </div>
+  <!-- FOOTER BEGIN -->
+  <footer class="footer">
+    <div class="container">
+      <h1 class="big-footer-text text-center">
+        Let's make something together
+        <small>info@debugthebox.com</small>
+      </h1>
+    </div>
+  </footer>
+  <footer class="footer-dark">
+    <div class="container">
+      <h5 class="small-footer-text"><span id="footerYear"></span> &copy; debug the box</h5>
+    </div>
+  </footer>
+  <!-- FOOTER END -->
 
-            <div class="col-sm-offset-4 col-sm-4">
-               <div class="service-inner">
-                  <div class="service-title">
-                     <i class="flaticon-browser-3"></i>
-                     <i class="inside-icon flaticon-worldwide"></i>
-                     <h4>UI/UX Consultancy</h4>
-                  </div>
-                  
-                  <p>A solid digital experience is in the macro and micro details of the design.<br>
-                  I will help you create a product that gives your customers a unique experience.</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- SERVICES END -->
-
-   <!-- PORTFOLIO BEGIN -->
-   <section class="section dark" id="portfolio">
-      <div class="container">
-         <div class="row">
-            <div class="col-sm-12">
-               <div class="title-inner">
-                  <h1>Portfolio</h1>
-                  <h3>Working hard... or hardly working?</h3>
-               </div>
-            </div>
-         </div>
-         
-         <div class="row">
-            <div class="col-sm-offset-4 col-sm-4 no-margin">
-               <a href="https://sinapticasecurity.com/" target="_blank">
-                  <div class="portfolio-inner">
-                     <img class="img-responsive" src="img/portfolio/sinaptica.jpg">
-                     <div class="portfolio-data">
-                        <div class="text">
-                           <h4 class="client">Sinaptica S.A.</h4>
-                           <h4 class="work">Web Development</h4>
-                        </div>
-                     </div>
-                  </div>
-               </a>
-            </div>
-            <div class="col-sm-4 no-margin">
-               <div class="portfolio-inner">
-                  <img class="img-responsive" src="img/portfolio/bitsign-app.jpg">
-                  <div class="portfolio-data">
-                     <div class="text">
-                        <h4 class="client">BitSign Prototype</h4>
-                        <h4 class="work">Mobile Development</h4>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-sm-offset-4 col-sm-8 no-margin">
-               <a href="https://bitsign.io/" target="_blank">
-                  <div class="portfolio-inner">
-                     <img class="img-responsive" src="img/portfolio/bitsign.jpg">
-                     <div class="portfolio-data">
-                        <div class="text">
-                           <h4 class="client">BitSign</h4>
-                           <h4 class="work">WebApp Development</h4>
-                        </div>
-                     </div>
-                  </div>
-               </a>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-sm-offset-4 col-sm-4 no-margin">
-               <a href="http://contratup.com/" target="_blank">
-                  <div class="portfolio-inner">
-                     <img class="img-responsive" src="img/portfolio/contratup.jpg">
-                     <div class="portfolio-data">
-                        <div class="text">
-                           <h4 class="client">ContratUp</h4>
-                           <h4 class="work">WebApp Development</h4>
-                        </div>
-                     </div>
-                  </div>
-               </a>
-            </div>
-            <div class="col-sm-4 no-margin">
-               <a href="http://globalsoftworks.com/" target="_blank">
-                  <div class="portfolio-inner">
-                     <img class="img-responsive" src="img/portfolio/gsw.jpg">
-                     <div class="portfolio-data">
-                        <div class="text">
-                           <h4 class="client">Global Softworks</h4>
-                           <h4 class="work">Web Design</h4>
-                        </div>
-                     </div>
-                  </div>
-               </a>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-sm-offset-8 col-sm-4 no-margin">
-               <a href="https://cryptologic.io/" target="_blank">
-                  <div class="portfolio-inner">
-                     <img class="img-responsive" src="img/portfolio/cryptologic.jpg">
-                     <div class="portfolio-data">
-                        <div class="text">
-                           <h4 class="client">Cryptologic</h4>
-                           <h4 class="work">Web Development</h4>
-                        </div>
-                     </div>
-                  </div>
-               </a>
-            </div>
-         </div>         
-      </div>
-   </section>
-   <!-- PORTFOLIO END -->
-
-   <!-- GITHUB BANNER BEGIN -->
-   <a href="https://github.com/npaez" target="_blank">
-      <section class="section section-img-2">
-         <div class="bg-shadow"></div>
-         <div class="container">
-            <div class="title-inner">
-               <h1>Check my GitHub</h1>
-               <h3>I code things</h3>
-            </div>
-         </div>
-      </section>
-   </a>
-   <!-- GITHUB BANNER END -->
-
-   <!-- CONTACT BEGIN -->
-   <div class="gmap-inner" ng-controller="gmapsCtrl">
-      <div id="googleMap" class="gmaps"></div>
-
-      <button type="button" class="btn btn-submit btn-map animated" ng-click="setMapVisible()" ng-class="{'notVisible': mapVisible}">
-         <h4>Show info</h4>
-      </button>
-
-      <div class="card" ng-class="{'notVisible': !mapVisible}">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <div class="title-inner">
-                     <h1 class="dark">Contact me</h1>
-                     <h3>Drop me a line</h3>
-                  </div>                  
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-sm-offset-4 col-sm-4">
-                  <h4 class="contact-title">Location</h4>
-                  <p class="contact-data">Rosario, Argentina</p>
-               </div>
-               <div class="col-sm-4">
-                  <h4 class="contact-title">Email</h4>
-                  <p class="contact-data">
-                     <a href="mailto:nestor.2005@gmail.com">nestor.2005@gmail.com</a>
-                  </p>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-sm-offset-4 col-sm-4">
-                  <h4 class="contact-title">Twitter</h4>
-                  <p class="contact-data">
-                     <a href="https://twitter.com/ntpaez" target="_blank">@ntpaez</a>
-                  </p>
-               </div>
-               <div class="col-sm-4">
-                  <h4 class="contact-title">
-                     <span ng-click="setMapVisible()">
-                        View on Map                        
-                     </span>
-                  </h4>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- CONTACT END -->
-
-   <!-- FOOTER BEGIN -->
-   <footer ng-controller="footerCtrl" class="footer">
-      <div class="container-fluid">
-         <h4>{{ currentDate }} &copy; Nestor Paez</h4>
-      </div>
-   </footer>
-   <!-- FOOTER END -->
-
-   <script src="js/angular.min.js"></script>
-   <script src="js/angular-bootstrap.min.js"></script>
-   <script src="js/angular-animate.min.js"></script>
-   <script src="js/script.js"></script>
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPPpMMq5GLaC_0aOYK-clnNVZCkB0Au1w"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPPpMMq5GLaC_0aOYK-clnNVZCkB0Au1w"></script>
 </body>
 </html>
