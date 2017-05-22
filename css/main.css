@@ -1,207 +1,34 @@
-/*!
- * IMPORTS
- **/
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
-@import url(https://fonts.googleapis.com/css?family=Muli:400,300);
-
-/*!
- * GENERAL
- * STYLE
- **/
+/*! IMPORTS **/
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
+/*! GENERAL STYLE **/
 html,
 body { height: 100%; min-height: 100%; }
-body { background: #fafafa; font-family: 'Muli'; margin-left: 0;}
-body.no-overflow { overflow: hidden; }
+body { background: #fafafa; font-family: 'Roboto'; }
 a,
 a:active,
 a:focus { color: #00B0FF; transition: .3s; text-decoration: none; font-weight: 400; }
 a:hover { text-decoration: none; color: #4DD0E1; }
-p { font-weight: 400; font-size: 16px; color: #666; }
+p { font-weight: 400; font-size: 16px; color: #777; }
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-   font-family: 'Playfair Display';
-   color: #448AFF;
-   font-weight: 400;
-}
-
-.icon { position: relative; }
-
-.icon .icon-wrapper {
-   font-size: 24px;
-   margin-bottom: 5px;
-}
-
-.icon .icon-inner {
-   position: absolute;
-   left: 50%;
-   margin-left: -10px;
-   color: red
-}
-
-.background-title {
-   position: absolute;
-   font-family: 'Muli';
-   font-weight: bold;
-   z-index: 0;
-   -webkit-user-select: none; /* Chrome/Safari */        
-   -moz-user-select: none; /* Firefox */
-   -ms-user-select: none; /* IE10+ */
-   margin-left: -10px;
-   top: 0;
-}
-
-.background-title.about {
-   color: rgba(0, 0, 0, .08);
-   line-height: 53px;
-   font-size: 110px;
-}
-
-.background-title.services {
-   color: rgba(0, 0, 0, .06);
-   line-height: 26px;
-   font-size: 85px;
-}
-
-.background-title.contact {
-   color: rgba(255, 255, 255, .08);
-   line-height: 14px;
-   font-size: 80px;
-}
-
-@media only screen and (min-width : 570px) {
-   .background-title.about {
-      line-height: 99px;
-      font-size: 170px;
-   }
-
-   .background-title.services {
-      line-height: 66px;
-      font-size: 140px;
-   }
-
-   .background-title.contact {
-      line-height: 58px;
-      font-size: 140px;
-   }
-}
-
-@media only screen and (min-width : 768px) {
-   .background-title.about {
-      line-height: 125px;
-      font-size: 200px;
-   }
-
-   .background-title.services {
-      line-height: 99px;
-      font-size: 180px;
-   }
-
-   .background-title.contact {
-      line-height: 80px;
-      font-size: 180px;
-   }
-}
-
-@media only screen and (min-width : 992px) {
-   .background-title.about {
-      line-height: 162px;
-      font-size: 250px;
-   }
-
-   .background-title.services {
-      line-height: 130px;
-      font-size: 224px;
-   }
-
-   .background-title.contact {
-      line-height: 120px;
-      font-size: 230px;
-   }
-}
-
-/*!
- * SECTION GENERAL
- * STYLE
- **/
-.section {
-   position: relative;
-   padding: 80px 0;
-   background-color: #fff;
-}
-
-.section.doble-padding { padding: 140px 0; }
-.section.no-padding-bottom { padding-bottom: 0; }
-
-.section.white {
-   background-color: #eee;
-}
-
-.section.section-img {
-   background-image: url("../img/banner.jpg");
-   background-position: center;
-   background-size: cover;
-   height: 400px;
-   padding: 0;
-}
-
-.section .main-title h1 {
-   font-size: 38px;
-   padding: 0;
-   margin: 0;
-   position: absolute;
-   top: 50%;
-   font-weight: 700;
-   margin-top: -46px;
-   color: #fff;
-}
-
-.section .main-title h1 small {
-   color: #448AFF;
-   display: block;
-   font-size: 20px;
-   font-weight: 400;
-}
-
-/*!
- * PORTFOLIO
- * STYLE
- **/
-.no-padding { padding: 0px !important; }
-
-/*!
- * FOOTER
- * STYLE
- **/
-.footer {
-   position: relative;
-   padding: 140px 0;
-   background-color: #1B1B25; }
-
-.footer h1.big-footer-text {
-   color: #fff;
-   font-weight: 700;
-   margin: 0;
-}
-
-.footer h1.big-footer-text small {
-   font-family: 'Muli';
-   display: block;
-   margin-top: 10px;
-   position: relative;
-   font-size: 18px;
-   color: #ccc;
-}
-
-.footer-dark {
-   padding: 20px 0;
-   background-color: #070713; }
-
-.footer-dark h5.small-footer-text {
-   text-transform: uppercase;
-   margin: 0;
-   padding: 0;
-   color: #fff; }
+h6 { font-family: 'Varela Round'; font-weight: 400; } /* color: #448AFF */
+button:focus { outline: 0; }
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus { outline: none; }
+/*! SECTION STYLE **/
+.header { background-color: #fff; padding: 50px 0; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+.header h1,
+.header h5 { text-align: center; letter-spacing: 1px; }
+.header h1 { margin: 0; }
+.header h5 { margin: 10px 0 0; text-transform: uppercase; color: #777; }
+.section { position: relative; margin: 120px 0; }
+.section .title { font-weight: bold; letter-spacing: 1px; }
+.progress { height: 10px; margin-bottom: 10px; border-radius: 0; box-shadow: none; }
