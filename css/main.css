@@ -31,7 +31,7 @@ button:focus { outline: 0; }
 .card .card-content { padding: 20px; border-radius: 0 0 2px 2px; }
 .card .card-content p { font-size: 16px; }
 .card .card-content .title { font-weight: 700; margin: 10px 0 20px 0; }
-.label.label-info { background: #009688; padding: .25em .6em; font-size: 70%; position: relative; top: -2px;}
+.label.label-info { background: #009688; padding: .25em .6em; position: relative; top: -3px; font-size: 80% }
 @media only screen and (min-width : 992px) {
   .wrapRight { margin-left: 275px; }
   .wrapLeft { position: fixed; }
