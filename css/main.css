@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 html,
 body { height: 100%; min-height: 100%; }
-body { background: #fafafa; font-family: 'Roboto'; }
+body { background: #f4f4f4; font-family: 'Roboto'; }
 a,
 a:active,
 a:focus { color: #009688; transition: .3s; text-decoration: none; font-weight: 400; }
