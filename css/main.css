@@ -18,11 +18,11 @@ button:focus { outline: 0; }
 .wrapRight { margin-top: 50px; }
 .wrapLeft { margin-top: 60px; }
 .wrapLeft h1,
-.wrapLeft h6,
+.wrapLeft h6 a,
 .wrapLeft h5 { text-transform: uppercase; font-weight: 700 }
 .wrapLeft h1 { margin: 0;}
 .wrapLeft h5 { margin: 5px 0 30px; color: #777; }
-.wrapLeft h6 { color: #4DB6AC; }
+.wrapLeft h6 a { color: #4DB6AC; }
 .wrapLeft img.avatar { width: 100px; border-radius: 50%; margin-bottom: 20px; }
 .progress-bar-title { font-weight: 700; }
 .progress { height: 10px; margin-bottom: 10px; border-radius: 0; box-shadow: none; background: #B2DFDB }
@@ -31,7 +31,7 @@ button:focus { outline: 0; }
 .card .card-content { padding: 20px; border-radius: 0 0 2px 2px; }
 .card .card-content p { font-size: 16px; }
 .card .card-content .title { font-weight: 700; margin: 10px 0 20px 0; }
-.label.label-info { background: #009688; padding: .25em .6em; font-size: 73%; position: relative; top: -2px;}
+.label.label-info { background: #009688; padding: .25em .6em; font-size: 70%; position: relative; top: -2px;}
 @media only screen and (min-width : 992px) {
   .wrapRight { margin-left: 275px; }
   .wrapLeft { position: fixed; }
