@@ -1,21 +1,13 @@
-/*! IMPORTS **/
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
-/*! GENERAL STYLE **/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 html,
 body { height: 100%; min-height: 100%; }
 body { background: #fafafa; font-family: 'Roboto'; }
 a,
 a:active,
-a:focus { color: #00B0FF; transition: .3s; text-decoration: none; font-weight: 400; }
-a:hover { text-decoration: none; color: #4DD0E1; }
+a:focus { color: #009688; transition: .3s; text-decoration: none; font-weight: 400; }
+a:hover { text-decoration: none; color: #4DB6AC; }
 p { font-weight: 400; font-size: 16px; color: #777; }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 { font-family: 'Varela Round'; font-weight: 400; } /* color: #448AFF */
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 button:focus { outline: 0; }
 .btn.active.focus,
 .btn.active:focus,
@@ -23,12 +15,25 @@ button:focus { outline: 0; }
 .btn:active.focus,
 .btn:active:focus,
 .btn:focus { outline: none; }
-/*! SECTION STYLE **/
-.header { background-color: #fff; padding: 50px 0; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-.header h1,
-.header h5 { text-align: center; letter-spacing: 1px; }
-.header h1 { margin: 0; }
-.header h5 { margin: 10px 0 0; text-transform: uppercase; color: #777; }
-.section { position: relative; margin: 120px 0; }
-.section .title { font-weight: bold; letter-spacing: 1px; }
-.progress { height: 10px; margin-bottom: 10px; border-radius: 0; box-shadow: none; }
+.wrapRight { margin-top: 50px; }
+.wrapLeft { margin-top: 60px; }
+.wrapLeft h1,
+.wrapLeft h6,
+.wrapLeft h5 { text-transform: uppercase; font-weight: 700 }
+.wrapLeft h1 { margin: 0;}
+.wrapLeft h5 { margin: 5px 0 30px; color: #777; }
+.wrapLeft h6 { color: #4DB6AC; }
+.wrapLeft img.avatar { width: 100px; border-radius: 50%; margin-bottom: 20px; }
+.progress-bar-title { font-weight: 700; }
+.progress { height: 10px; margin-bottom: 10px; border-radius: 0; box-shadow: none; background: #B2DFDB }
+.progress .progress-bar { background: #009688 }
+.card { position: relative; margin-bottom: 32px; background-color: #fefefe; transition: box-shadow .25s; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; }
+.card .card-content { padding: 20px; border-radius: 0 0 2px 2px; }
+.card .card-content p { font-size: 16px; }
+.card .card-content .title { font-weight: 700; margin: 10px 0 20px 0; }
+.label.label-info { background: #009688; padding: .25em .6em; font-size: 73%; position: relative; top: -2px;}
+@media only screen and (min-width : 992px) {
+  .wrapRight { margin-left: 275px; }
+  .wrapLeft { position: fixed; }
+  .wrapLeft h1 span { display: block; }
+}
