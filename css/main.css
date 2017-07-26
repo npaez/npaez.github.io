@@ -24,9 +24,9 @@ button:focus { outline: 0; }
 .wrapLeft h5 { margin: 5px 0 30px; color: #777; }
 .wrapLeft h6 a { color: #4DB6AC; }
 .wrapLeft img.avatar { width: 100px; border-radius: 50%; margin-bottom: 20px; box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px }
-.progress-bar-title { font-weight: 700; }
+.progress-bar-title { font-weight: 700; color: #777; }
 .progress { height: 10px; margin-bottom: 10px; border-radius: 0; box-shadow: none; background: #B2DFDB }
-.progress .progress-bar { background: #009688 }
+.progress .progress-bar { background: #009688; }
 .card { position: relative; margin-bottom: 32px; background-color: #fefefe; transition: box-shadow .25s; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; }
 .card .card-content { padding: 20px; border-radius: 0 0 2px 2px; }
 .card .card-content p { font-size: 16px; }
@@ -36,6 +36,4 @@ button:focus { outline: 0; }
   .wrapLeft { position: fixed; }
   .wrapLeft h1 span { display: block; }
 }
-.fa-li { left: -26px; top: 3px; color: #999; }
-.fa-ul { margin-left: 18px; }
-.fa-ul > li { margin-bottom: 5px; }
+label.project-label { font-size: 16px; color: #777; }
