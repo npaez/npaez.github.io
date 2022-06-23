@@ -1,5 +1,5 @@
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'Inter', sans-serif;
   color: #22232b;
   background-color: #fcfcfc;
   background-position: right top;
@@ -53,16 +53,18 @@ button:focus {
   font-size: 56px;
   font-weight: 900;
   letter-spacing: -1px;
+  margin-bottom: 25px;
 }
 
 .main .h3-hero {
   line-height: 1.6;
   color: #4b5d62;
+  font-size: 18px;
 }
 
 .main .h3-hero a {
-  font-weight: 700;
   color: #009688;
+  font-weight: 900;
 }
 
 .main .h3-hero a i {
